@@ -1,0 +1,1947 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kaafiye Veterinary Pharmacy | Farmashiyaha Xoolaha ee Kaafiye — Berbera</title>
+  <meta name="description" content="Trusted veterinary pharmacy, laboratory diagnostics, surgery care, and dairy & livestock support at Road No. 1, Barwaaqo, Berbera." />
+
+  <!-- Google Fonts: Inter & Playfair Display (for logo serif subtitle) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+            serif: ['Playfair Display', 'Georgia', 'serif'],
+          },
+          colors: {
+            brand: {
+              red: '#D32F2F',
+              bright: '#DC2626',
+              dark: '#991B1B',
+              hover: '#B91C1C',
+              tint: '#FEF2F2',
+              soft: '#FFF5F5',
+              border: '#F3D5D5',
+            }
+          }
+        }
+      }
+    };
+  </script>
+
+  <style>
+    :root {
+      --kvp-red: #D32F2F;
+      --kvp-red-bright: #DC2626;
+      --kvp-crimson: #991B1B;
+      --kvp-crimson-hover: #B91C1C;
+      --kvp-tint: #FEF2F2;
+      --kvp-soft: #FFF5F5;
+      --kvp-border: #F3D5D5;
+      --kvp-charcoal: #111827;
+      --kvp-body: #374151;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      color: var(--kvp-charcoal);
+      background-color: #FFFFFF;
+      overflow-x: hidden;
+    }
+
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    /* Subtle fade-in animation for dynamic tabs and gallery */
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(8px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    .animate-fade-up {
+      animation: fadeUp 0.28s ease-out forwards;
+    }
+  </style>
+</head>
+<body class="bg-white text-[#111827] antialiased selection:bg-red-100 selection:text-[#991B1B]">
+
+  <!-- =========================================================================
+       REUSABLE INLINE SVG TEMPLATE FOR THE KAAFIYE VETERINARY PHARMACY LOGO
+       Used automatically as a crisp fallback if the local JPEG is unavailable
+  ========================================================================== -->
+  <svg class="hidden" aria-hidden="true">
+    <defs>
+      <symbol id="kvp-logo-symbol" viewBox="0 0 240 240">
+        <!-- Circular White Badge with Crisp Border -->
+        <circle cx="120" cy="120" r="115" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="3" />
+        <circle cx="120" cy="120" r="109" fill="none" stroke="#F3D5D5" stroke-width="1.5" />
+
+        <!-- Tasteful Livestock Silhouettes above VP (Goat, Camel, Dairy Cow) -->
+        <!-- Goat Head -->
+        <g transform="translate(108, 43) scale(0.75)" fill="none" stroke="#111827" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 4 C14 2, 22 8, 26 16" />
+          <path d="M12 10 C18 6, 26 10, 30 18" />
+          <path d="M14 17 C12 24, 15 31, 22 33 C28 35, 34 32, 35 27 C36 23, 30 19, 24 17 Z" fill="#FFFFFF" />
+          <path d="M22 33 L20 42 M25 34 L25 40" />
+          <circle cx="26" cy="23" r="1.4" fill="#111827" />
+        </g>
+        <!-- Camel Silhouette -->
+        <g transform="translate(139, 44) scale(0.82)" fill="#D97706">
+          <path d="M4 34 L6 23 C8 16, 13 11, 18 11 C22 11, 24 14, 28 14 C31 14, 34 9, 38 8 C41 7, 44 8, 45 10 C45 12, 42 13, 39 14 C37 16, 36 21, 33 24 L33 36 L30 36 L30 26 L21 26 L20 36 L17 36 L17 25 L10 26 L8 36 L5 36 Z" />
+        </g>
+        <!-- Dairy Cow Silhouette -->
+        <g transform="translate(174, 46) scale(0.78)">
+          <path d="M4 18 C4 11, 10 8, 18 8 L26 8 C30 8, 34 6, 37 5 L41 8 C42 11, 40 15, 37 16 L35 23 L35 35 L31 35 L31 24 L15 24 L14 35 L10 35 L10 23 L6 23 Z" fill="#111827" />
+          <ellipse cx="16" cy="15" rx="5" ry="4" fill="#FFFFFF" />
+          <ellipse cx="27" cy="18" rx="4" ry="3.5" fill="#FFFFFF" />
+          <circle cx="36" cy="10" r="1.2" fill="#FFFFFF" />
+        </g>
+
+        <!-- Bold Red KVP Letters -->
+        <text x="44" y="132" font-family="Inter, Arial Black, sans-serif" font-weight="900" font-size="94" fill="#DC2626" letter-spacing="-3">K</text>
+        <text x="106" y="132" font-family="Inter, Arial Black, sans-serif" font-weight="900" font-size="68" fill="#DC2626" letter-spacing="-2">VP</text>
+
+        <!-- Bold Black KAAFIYE -->
+        <text x="120" y="160" text-anchor="middle" font-family="Inter, Arial Black, sans-serif" font-weight="900" font-size="25" fill="#111827" letter-spacing="5.5">KAAFIYE</text>
+
+        <!-- Italic Serif Veterinary Pharmacy -->
+        <text x="132" y="182" text-anchor="middle" font-family="Playfair Display, Georgia, serif" font-style="italic" font-weight="700" font-size="16.5" fill="#111827">Veterinary Pharmacy</text>
+
+        <!-- Thin Horizontal Ornamental Divider -->
+        <line x1="36" y1="195" x2="104" y2="195" stroke="#111827" stroke-width="1.3" />
+        <polygon points="112,195 120,190 128,195 120,200" fill="#DC2626" />
+        <line x1="136" y1="195" x2="204" y2="195" stroke="#111827" stroke-width="1.3" />
+      </symbol>
+
+      <!-- Custom Red & White SVG Fallback: Somali Dromedary Camel (Geel) -->
+      <symbol id="svg-livestock-camel" viewBox="0 0 320 200">
+        <rect width="320" height="200" fill="#FEF2F2" />
+        <path d="M0 162 Q80 148 160 158 T320 154 L320 200 L0 200 Z" fill="#FEE2E2" />
+        <circle cx="268" cy="42" r="20" fill="#DC2626" opacity="0.16" />
+        <g transform="translate(86, 46)" fill="#991B1B">
+          <path d="M18 92 L24 62 C28 42, 42 28, 58 28 C72 28, 78 38, 92 38 C102 38, 112 22, 124 18 C132 15, 142 18, 144 25 C145 31, 136 34, 128 36 C121 43, 118 58, 108 68 L108 110 L98 110 L98 76 L68 76 L64 110 L54 110 L54 74 L32 76 L26 110 L16 110 Z" />
+          <circle cx="132" cy="24" r="2.2" fill="#FFFFFF" />
+        </g>
+        <text x="160" y="184" text-anchor="middle" font-family="Inter, sans-serif" font-weight="800" font-size="12" fill="#991B1B" letter-spacing="1.5">SOMALI CAMELS · GEEL</text>
+      </symbol>
+
+      <!-- Custom Red & White SVG Fallback: Somali / East African Zebu Cattle (Lo') -->
+      <symbol id="svg-livestock-cattle" viewBox="0 0 320 200">
+        <rect width="320" height="200" fill="#FEF2F2" />
+        <path d="M0 162 Q90 150 180 158 T320 152 L320 200 L0 200 Z" fill="#FEE2E2" />
+        <circle cx="54" cy="42" r="18" fill="#DC2626" opacity="0.16" />
+        <g transform="translate(82, 54)" fill="#991B1B">
+          <path d="M14 48 C14 28, 32 18, 52 18 C64 18, 72 10, 84 10 C96 10, 104 18, 118 18 C130 18, 142 14, 150 10 L158 18 C160 28, 154 38, 144 42 L138 62 L138 102 L126 102 L126 66 L54 66 L50 102 L38 102 L38 64 L22 64 L16 78 L10 74 Z" />
+          <path d="M138 14 C142 4, 150 2, 156 4" fill="none" stroke="#DC2626" stroke-width="3.5" stroke-linecap="round" />
+          <ellipse cx="64" cy="40" rx="14" ry="10" fill="#FFFFFF" opacity="0.88" />
+          <ellipse cx="104" cy="46" rx="11" ry="8" fill="#FFFFFF" opacity="0.88" />
+          <circle cx="146" cy="24" r="2.2" fill="#FFFFFF" />
+        </g>
+        <text x="160" y="184" text-anchor="middle" font-family="Inter, sans-serif" font-weight="800" font-size="12" fill="#991B1B" letter-spacing="1.5">SOMALI CATTLE · LO'DA</text>
+      </symbol>
+
+      <!-- Custom Red & White SVG Fallback: Somali Goats & Blackhead Sheep (Adhi) -->
+      <symbol id="svg-livestock-shoat" viewBox="0 0 320 200">
+        <rect width="320" height="200" fill="#FEF2F2" />
+        <path d="M0 162 Q100 150 200 158 T320 154 L320 200 L0 200 Z" fill="#FEE2E2" />
+        <g transform="translate(74, 62)">
+          <!-- Somali Blackhead Sheep Body (White with Dark Head) -->
+          <rect x="20" y="28" width="76" height="44" rx="20" fill="#FFFFFF" stroke="#991B1B" stroke-width="3" />
+          <path d="M88 30 C98 20, 114 22, 118 34 C120 42, 112 50, 102 50 L92 48 Z" fill="#111827" />
+          <circle cx="108" cy="34" r="2" fill="#FFFFFF" />
+          <path d="M32 70 L32 94 M46 70 L46 94 M76 70 L76 94 M88 70 L88 94" stroke="#111827" stroke-width="4.5" stroke-linecap="round" />
+          <!-- Companion Goat Silhouette -->
+          <g transform="translate(96, 16) scale(0.72)" fill="#DC2626">
+            <path d="M12 36 C12 22, 26 16, 48 16 L70 16 C80 16, 88 10, 96 8 L104 18 C102 26, 94 32, 86 34 L84 74 L74 74 L74 48 L36 48 L34 74 L24 74 L24 46 Z" />
+            <path d="M86 12 C90 2, 98 0, 104 2" fill="none" stroke="#991B1B" stroke-width="3.5" stroke-linecap="round" />
+          </g>
+        </g>
+        <text x="160" y="184" text-anchor="middle" font-family="Inter, sans-serif" font-weight="800" font-size="12" fill="#991B1B" letter-spacing="1.5">GOATS &amp; SHEEP · ADHIGA</text>
+      </symbol>
+
+      <!-- Custom Red & White SVG Fallback: Veterinary Pharmacy & Lab -->
+      <symbol id="svg-livestock-clinic" viewBox="0 0 320 200">
+        <rect width="320" height="200" fill="#FEF2F2" />
+        <circle cx="160" cy="92" r="52" fill="#FFFFFF" stroke="#DC2626" stroke-width="3.5" />
+        <rect x="148" y="64" width="24" height="56" rx="5" fill="#DC2626" />
+        <rect x="132" y="80" width="56" height="24" rx="5" fill="#DC2626" />
+        <text x="160" y="176" text-anchor="middle" font-family="Inter, sans-serif" font-weight="800" font-size="12" fill="#991B1B" letter-spacing="1.5">PHARMACY &amp; LAB · KAAFIYE</text>
+      </symbol>
+    </defs>
+  </svg>
+
+  <!-- =========================================================================
+       STICKY CORPORATE HEADER (WHITE WITH RED ACCENT)
+  ========================================================================== -->
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b-2 border-[#F3D5D5] shadow-xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-18 sm:h-20 py-2 gap-3">
+
+        <!-- Brand Logo + Name -->
+        <a href="#home" class="flex items-center gap-3 group min-w-0">
+          <div class="relative w-12 h-12 sm:w-14 sm:h-14 rounded-full overflow-hidden border-2 border-[#F3D5D5] bg-white shadow-xs shrink-0 flex items-center justify-center">
+            <img
+              src="493202c2-3796-4288-8e44-544adc7b6b52.jpeg"
+              alt="Kaafiye Veterinary Pharmacy Logo"
+              class="w-full h-full object-cover"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"
+            />
+            <svg class="w-full h-full hidden" viewBox="0 0 240 240" aria-label="Kaafiye Veterinary Pharmacy Logo">
+              <use href="#kvp-logo-symbol"></use>
+            </svg>
+          </div>
+          <div class="min-w-0">
+            <span class="block text-sm sm:text-lg font-extrabold tracking-tight text-[#111827] group-hover:text-[#D32F2F] transition-colors truncate" data-i18n="brandName">Kaafiye Veterinary Pharmacy</span>
+            <span class="block text-xs font-semibold text-[#D32F2F] truncate" data-i18n="brandSub">Road No. 1, Barwaaqo, Berbera</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden lg:flex items-center gap-1" aria-label="Main Navigation">
+          <a href="#home" class="px-3.5 py-2 rounded-xl text-sm font-semibold text-[#374151] hover:text-[#D32F2F] hover:bg-[#FEF2F2] transition-colors" data-i18n="navHome">Home</a>
+          <a href="#about" class="px-3.5 py-2 rounded-xl text-sm font-semibold text-[#374151] hover:text-[#D32F2F] hover:bg-[#FEF2F2] transition-colors" data-i18n="navAbout">About Us</a>
+          <a href="#services" class="px-3.5 py-2 rounded-xl text-sm font-semibold text-[#374151] hover:text-[#D32F2F] hover:bg-[#FEF2F2] transition-colors" data-i18n="navServices">Services</a>
+          <a href="#dairy-support" class="px-3.5 py-2 rounded-xl text-sm font-semibold text-[#374151] hover:text-[#D32F2F] hover:bg-[#FEF2F2] transition-colors" data-i18n="navDairy">Dairy Support</a>
+          <a href="#gallery" class="px-3.5 py-2 rounded-xl text-sm font-semibold text-[#374151] hover:text-[#D32F2F] hover:bg-[#FEF2F2] transition-colors" data-i18n="navGallery">Gallery</a>
+          <a href="#contact" class="px-3.5 py-2 rounded-xl text-sm font-semibold text-[#374151] hover:text-[#D32F2F] hover:bg-[#FEF2F2] transition-colors" data-i18n="navContact">Contact</a>
+        </nav>
+
+        <!-- Right Controls: Language Switcher, Quick Contact CTA, Mobile Hamburger -->
+        <div class="flex items-center gap-2 sm:gap-3 shrink-0">
+          <!-- EN / SO Language Toggle -->
+          <div class="inline-flex items-center rounded-xl bg-[#FEF2F2] p-1 border border-[#F3D5D5]" role="group" aria-label="Language Switcher">
+            <button id="langBtnEn" type="button" onclick="setLanguage('en')" class="px-2.5 py-1.5 rounded-lg text-xs font-extrabold transition-all">EN</button>
+            <button id="langBtnSo" type="button" onclick="setLanguage('so')" class="px-2.5 py-1.5 rounded-lg text-xs font-extrabold transition-all">SO</button>
+          </div>
+
+          <!-- Desktop Contact Button -->
+          <a href="#contact" class="hidden sm:inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-[#DC2626] hover:bg-[#B91C1C] text-white text-sm font-bold shadow-sm transition-all">
+            <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+            </svg>
+            <span data-i18n="navCta">Consult Us</span>
+          </a>
+
+          <!-- Mobile Menu Toggle -->
+          <button id="mobileMenuBtn" type="button" onclick="toggleMobileMenu()" class="lg:hidden inline-flex items-center justify-center p-2.5 rounded-xl text-[#111827] hover:text-[#DC2626] hover:bg-[#FEF2F2] border border-transparent hover:border-[#F3D5D5] transition-colors" aria-label="Toggle Menu" aria-expanded="false">
+            <svg id="menuIconOpen" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+            <svg id="menuIconClose" class="w-6 h-6 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Slide-Down Navigation Drawer -->
+      <div id="mobileMenu" class="hidden lg:hidden pb-4 pt-2 border-t border-[#F3D5D5] space-y-1 animate-fade-up">
+        <a href="#home" onclick="closeMobileMenu()" class="block px-3.5 py-2.5 rounded-xl text-sm font-bold text-[#111827] hover:bg-[#FEF2F2] hover:text-[#DC2626]" data-i18n="navHome">Home</a>
+        <a href="#about" onclick="closeMobileMenu()" class="block px-3.5 py-2.5 rounded-xl text-sm font-bold text-[#111827] hover:bg-[#FEF2F2] hover:text-[#DC2626]" data-i18n="navAbout">About Us</a>
+        <a href="#services" onclick="closeMobileMenu()" class="block px-3.5 py-2.5 rounded-xl text-sm font-bold text-[#111827] hover:bg-[#FEF2F2] hover:text-[#DC2626]" data-i18n="navServices">Services</a>
+        <a href="#dairy-support" onclick="closeMobileMenu()" class="block px-3.5 py-2.5 rounded-xl text-sm font-bold text-[#111827] hover:bg-[#FEF2F2] hover:text-[#DC2626]" data-i18n="navDairy">Dairy Support</a>
+        <a href="#gallery" onclick="closeMobileMenu()" class="block px-3.5 py-2.5 rounded-xl text-sm font-bold text-[#111827] hover:bg-[#FEF2F2] hover:text-[#DC2626]" data-i18n="navGallery">Gallery</a>
+        <a href="#contact" onclick="closeMobileMenu()" class="block px-3.5 py-2.5 rounded-xl text-sm font-bold text-[#DC2626] bg-[#FEF2F2]" data-i18n="navContact">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- =========================================================================
+         1. HERO SECTION (HIGH-IMPACT RED & WHITE)
+    ========================================================================== -->
+    <section id="home" class="relative overflow-hidden bg-gradient-to-b from-[#FFF5F5] via-white to-white pt-10 pb-12 sm:pt-16 sm:pb-16 lg:pt-20 lg:pb-20">
+      <!-- Subtle Decorative Background Accents -->
+      <div class="absolute top-0 right-0 w-[420px] h-[420px] rounded-full bg-[#DC2626]/5 blur-3xl -translate-y-1/3 translate-x-1/4 pointer-events-none"></div>
+      <div class="absolute bottom-0 left-0 w-[300px] h-[300px] rounded-full bg-[#991B1B]/5 blur-3xl translate-y-1/3 -translate-x-1/4 pointer-events-none"></div>
+
+      <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+
+          <!-- Left Column: Copy, Live EAT Status, CTAs -->
+          <div class="lg:col-span-7 space-y-6">
+            <!-- Dynamic EAT UTC+3 Status Pill -->
+            <div class="inline-flex flex-wrap items-center gap-2.5 px-4 py-2 rounded-full bg-white border border-[#F3D5D5] shadow-xs">
+              <span id="statusDot" class="w-2.5 h-2.5 rounded-full bg-[#DC2626] animate-pulse shrink-0"></span>
+              <span id="statusLabel" class="text-xs sm:text-sm font-bold text-[#111827]">Checking Berbera hours...</span>
+              <span class="text-[#F3D5D5] hidden sm:inline">|</span>
+              <span id="eatClock" class="text-xs font-semibold text-[#D32F2F]">Berbera (EAT)</span>
+            </div>
+
+            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight text-[#111827] leading-[1.15]">
+              <span data-i18n="heroTitlePart1">Trusted Veterinary Pharmacy &amp;</span>
+              <span class="text-[#DC2626]" data-i18n="heroTitlePart2"> Livestock Care in Berbera</span>
+            </h1>
+
+            <p class="text-base sm:text-lg text-[#374151] leading-relaxed max-w-2xl" data-i18n="heroSubtitle">
+              Delivering genuine veterinary medicines, laboratory diagnostics, surgical care, and dairy &amp; herd advisory for camels, cattle, goats, and sheep across Berbera and the Sahil region.
+            </p>
+
+            <!-- Hero Action Buttons -->
+            <div class="flex flex-col sm:flex-row gap-3.5 pt-1">
+              <a href="#services" class="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-[#DC2626] hover:bg-[#B91C1C] text-white font-bold text-sm sm:text-base shadow-md shadow-red-600/20 transition-all">
+                <span data-i18n="heroCtaServices">Our Services</span>
+                <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
+              </a>
+
+              <a href="#gallery" class="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-white hover:bg-[#FEF2F2] text-[#DC2626] border-2 border-[#DC2626] font-bold text-sm sm:text-base transition-all">
+                <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+                <span data-i18n="heroCtaGallery">View Facility Gallery</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Column: Corporate Veterinary Visual Card + Circular KVP Logo Badge -->
+          <div class="lg:col-span-5">
+            <div class="relative rounded-3xl bg-gradient-to-br from-[#DC2626] to-[#991B1B] p-1.5 shadow-2xl shadow-red-900/15">
+              <div class="rounded-[20px] bg-white overflow-hidden">
+                <!-- Hero Authentic Somali Livestock Visual with Red & White SVG Fallback -->
+                <div class="relative h-64 sm:h-72 bg-[#FEF2F2] overflow-hidden">
+                  <img
+                    src="https://commons.wikimedia.org/wiki/Special:FilePath/Somali_veterinary_technician_carrying_a_camel_calf_in_the_rural_of_Xudun_district,_Sool,_Somalia.jpg?width=1000"
+                    alt="Somali veterinary technician caring for a dromedary camel calf — Geel"
+                    class="w-full h-full object-cover object-center"
+                    onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                  />
+                  <div class="hidden w-full h-full items-center justify-center bg-[#FEF2F2]">
+                    <svg class="w-full h-full" viewBox="0 0 320 200" aria-label="Somali Camel Livestock Illustration">
+                      <use href="#svg-livestock-camel"></use>
+                    </svg>
+                  </div>
+                  <!-- Subtle Red Gradient Overlay -->
+                  <div class="absolute inset-0 bg-gradient-to-t from-[#991B1B]/80 via-transparent to-transparent"></div>
+
+                  <!-- Floating Circular KVP Logo Badge -->
+                  <div class="absolute top-4 left-4 w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-white p-1 shadow-lg border-2 border-[#DC2626]">
+                    <img
+                      src="493202c2-3796-4288-8e44-544adc7b6b52.jpeg"
+                      alt="KVP Badge"
+                      class="w-full h-full rounded-full object-cover"
+                      onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"
+                    />
+                    <svg class="w-full h-full hidden rounded-full" viewBox="0 0 240 240" aria-hidden="true">
+                      <use href="#kvp-logo-symbol"></use>
+                    </svg>
+                  </div>
+
+                  <!-- Bottom Caption Overlay -->
+                  <div class="absolute bottom-4 left-4 right-4 text-white">
+                    <p class="text-xs font-bold uppercase tracking-wider text-red-100" data-i18n="heroBadgeEyebrow">Berbera's Veterinary Partner</p>
+                    <p class="text-sm sm:text-base font-extrabold" data-i18n="heroBadgeTitle">Camels · Cattle · Goats · Sheep</p>
+                  </div>
+                </div>
+
+                <!-- Card Footer Metrics -->
+                <div class="grid grid-cols-3 divide-x divide-[#F3D5D5] bg-white py-4 px-2 text-center">
+                  <div>
+                    <p class="text-lg sm:text-xl font-black text-[#DC2626]">6 Days</p>
+                    <p class="text-[11px] font-semibold text-[#374151]" data-i18n="metricDays">Sat – Thu Open</p>
+                  </div>
+                  <div>
+                    <p class="text-lg sm:text-xl font-black text-[#DC2626]">7AM–10PM</p>
+                    <p class="text-[11px] font-semibold text-[#374151]" data-i18n="metricHours">Daily Access</p>
+                  </div>
+                  <div>
+                    <p class="text-lg sm:text-xl font-black text-[#DC2626]">100%</p>
+                    <p class="text-[11px] font-semibold text-[#374151]" data-i18n="metricGenuine">Verified Stock</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Quick Trust Strip Below Hero -->
+        <div class="mt-12 sm:mt-14 rounded-2xl bg-[#991B1B] text-white px-5 py-4 sm:px-8 sm:py-5 shadow-lg">
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 text-sm font-semibold">
+            <div class="flex items-center gap-3">
+              <div class="w-9 h-9 rounded-xl bg-white/15 flex items-center justify-center shrink-0">
+                <svg class="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>
+              </div>
+              <span data-i18n="trust1">Licensed Vet Specialists</span>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <div class="w-9 h-9 rounded-xl bg-white/15 flex items-center justify-center shrink-0">
+                <svg class="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707" />
+                </svg>
+              </div>
+              <span data-i18n="trust2">Cold-Chain Medicines</span>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <div class="w-9 h-9 rounded-xl bg-white/15 flex items-center justify-center shrink-0">
+                <svg class="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m6 0a2 2 0 104 0m-4 0a2 2 0 114 0" />
+                </svg>
+              </div>
+              <span data-i18n="trust3">Walk-in &amp; Local Delivery</span>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <div class="w-9 h-9 rounded-xl bg-white/15 flex items-center justify-center shrink-0">
+                <svg class="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+              </div>
+              <span>Road No. 1, Barwaaqo, Berbera</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         2. ABOUT US SECTION (TWO-COLUMN CORPORATE SHOWCASE)
+    ========================================================================== -->
+    <section id="about" class="py-16 sm:py-20 bg-white border-t border-[#E5E7EB]">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
+
+          <!-- Left Visual Feature Card -->
+          <div class="lg:col-span-5">
+            <div class="relative rounded-3xl overflow-hidden border border-[#F3D5D5] bg-[#FEF2F2] shadow-xl">
+              <div class="aspect-[4/3] w-full overflow-hidden">
+                <img
+                  src="https://commons.wikimedia.org/wiki/Special:FilePath/Somali_camel.jpg?width=1000"
+                  alt="Somali dromedary camels in Horn of Africa pastoral landscape — Geel"
+                  class="w-full h-full object-cover object-center"
+                  onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                />
+                <div class="hidden w-full h-full items-center justify-center bg-[#FEF2F2]">
+                  <svg class="w-full h-full" viewBox="0 0 320 200" aria-label="Somali Camel Illustration">
+                    <use href="#svg-livestock-camel"></use>
+                  </svg>
+                </div>
+              </div>
+
+              <!-- Red Corner Badge -->
+              <div class="absolute top-4 left-4 px-3.5 py-1.5 rounded-full bg-[#DC2626] text-white text-xs font-extrabold uppercase tracking-wider shadow-md" data-i18n="aboutBadge">
+                Serving Berbera &amp; Sahil
+              </div>
+
+              <!-- Bottom Mission Strip -->
+              <div class="p-5 bg-white border-t border-[#F3D5D5] flex items-center gap-4">
+                <div class="w-12 h-12 rounded-2xl bg-[#FEF2F2] text-[#DC2626] flex items-center justify-center shrink-0">
+                  <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                  </svg>
+                </div>
+                <div>
+                  <p class="text-sm font-extrabold text-[#111827]" data-i18n="aboutCardTitle">Healthy Herds, Stronger Livelihoods</p>
+                  <p class="text-xs text-[#374151] mt-0.5" data-i18n="aboutCardSub">Quality pharmaceuticals &amp; evidence-based veterinary support.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Structured Content -->
+          <div class="lg:col-span-7 space-y-6">
+            <div>
+              <span class="inline-block text-xs font-extrabold uppercase tracking-wider text-[#DC2626] bg-[#FEF2F2] border border-[#F3D5D5] px-3.5 py-1 rounded-full mb-3" data-i18n="aboutEyebrow">About Kaafiye Veterinary Pharmacy</span>
+              <h2 class="text-2xl sm:text-3xl lg:text-4xl font-black text-[#111827] tracking-tight" data-i18n="aboutTitle">
+                Dedicated to Clinical Standards &amp; Pastoral Prosperity
+              </h2>
+            </div>
+
+            <p class="text-base text-[#374151] leading-relaxed" data-i18n="aboutP1">
+              Located on Road No. 1 in Barwaaqo, Berbera, Kaafiye Veterinary Pharmacy is a trusted veterinary pharmacy and animal health center serving pastoralists, dairy farmers, and livestock exporters across the Sahil region.
+            </p>
+            <p class="text-base text-[#374151] leading-relaxed" data-i18n="aboutP2">
+              We combine strict cold-chain pharmaceutical storage with practical clinical guidance—ensuring every herd receives authentic medicines, accurate diagnostics, and responsible dosage protocols that safeguard animal welfare and food safety.
+            </p>
+
+            <!-- 4 Key Pillars Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+              <div class="rounded-2xl bg-[#FFF5F5] border border-[#F3D5D5] p-4 flex items-start gap-3">
+                <div class="w-9 h-9 rounded-xl bg-[#DC2626] text-white flex items-center justify-center shrink-0 font-black text-sm">01</div>
+                <div>
+                  <h3 class="text-sm font-extrabold text-[#111827]" data-i18n="pillar1Title">Authentic Veterinary Supply</h3>
+                  <p class="text-xs text-[#374151] mt-1" data-i18n="pillar1Desc">Sourced from reputable manufacturers with strict batch and expiry verification.</p>
+                </div>
+              </div>
+
+              <div class="rounded-2xl bg-[#FFF5F5] border border-[#F3D5D5] p-4 flex items-start gap-3">
+                <div class="w-9 h-9 rounded-xl bg-[#DC2626] text-white flex items-center justify-center shrink-0 font-black text-sm">02</div>
+                <div>
+                  <h3 class="text-sm font-extrabold text-[#111827]" data-i18n="pillar2Title">Diagnostic Precision</h3>
+                  <p class="text-xs text-[#374151] mt-1" data-i18n="pillar2Desc">Laboratory screening to identify parasites and infections before treatment.</p>
+                </div>
+              </div>
+
+              <div class="rounded-2xl bg-[#FFF5F5] border border-[#F3D5D5] p-4 flex items-start gap-3">
+                <div class="w-9 h-9 rounded-xl bg-[#DC2626] text-white flex items-center justify-center shrink-0 font-black text-sm">03</div>
+                <div>
+                  <h3 class="text-sm font-extrabold text-[#111827]" data-i18n="pillar3Title">Dairy &amp; Pastoral Focus</h3>
+                  <p class="text-xs text-[#374151] mt-1" data-i18n="pillar3Desc">Specialized care programs tailored for camels, dairy cattle, goats, and sheep.</p>
+                </div>
+              </div>
+
+              <div class="rounded-2xl bg-[#FFF5F5] border border-[#F3D5D5] p-4 flex items-start gap-3">
+                <div class="w-9 h-9 rounded-xl bg-[#DC2626] text-white flex items-center justify-center shrink-0 font-black text-sm">04</div>
+                <div>
+                  <h3 class="text-sm font-extrabold text-[#111827]" data-i18n="pillar4Title">Accessible 6 Days a Week</h3>
+                  <p class="text-xs text-[#374151] mt-1" data-i18n="pillar4Desc">Extended hours (7 AM – 10 PM) with convenient counter pickup and local delivery.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         3. CLINICAL & PHARMACY SERVICES (6 INFORMATIONAL CARDS — NO CART)
+    ========================================================================== -->
+    <section id="services" class="py-16 sm:py-20 bg-[#FFF5F5] border-t border-[#F3D5D5]">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-12">
+          <span class="inline-block text-xs font-extrabold uppercase tracking-wider text-[#DC2626] bg-white border border-[#F3D5D5] px-3.5 py-1 rounded-full mb-3" data-i18n="servicesEyebrow">Clinical &amp; Pharmacy Services</span>
+          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-black text-[#111827] tracking-tight" data-i18n="servicesTitle">Comprehensive Animal Health Care</h2>
+          <p class="mt-3 text-base text-[#374151]" data-i18n="servicesSubtitle">Professional veterinary pharmacy dispensing, laboratory diagnostics, surgical care, and field support under one roof.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Service 1 -->
+          <article class="rounded-2xl bg-white border border-[#F3D5D5] p-6 sm:p-7 shadow-xs hover:shadow-lg hover:border-[#DC2626] transition-all group">
+            <div class="w-12 h-12 rounded-2xl bg-[#FEF2F2] text-[#DC2626] group-hover:bg-[#DC2626] group-hover:text-white flex items-center justify-center mb-5 transition-colors">
+              <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+              </svg>
+            </div>
+            <h3 class="text-lg font-extrabold text-[#111827] mb-2.5" data-i18n="srv1Title">Veterinary Pharmacy &amp; Dispensary</h3>
+            <p class="text-sm text-[#374151] leading-relaxed" data-i18n="srv1Desc">Genuine vaccines, antibiotics, dewormers, acaricides, and essential vitamins dispensed with clear species-specific dosage and withdrawal period guidance.</p>
+          </article>
+
+          <!-- Service 2 -->
+          <article class="rounded-2xl bg-white border border-[#F3D5D5] p-6 sm:p-7 shadow-xs hover:shadow-lg hover:border-[#DC2626] transition-all group">
+            <div class="w-12 h-12 rounded-2xl bg-[#FEF2F2] text-[#DC2626] group-hover:bg-[#DC2626] group-hover:text-white flex items-center justify-center mb-5 transition-colors">
+              <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
+              </svg>
+            </div>
+            <h3 class="text-lg font-extrabold text-[#111827] mb-2.5" data-i18n="srv2Title">Laboratory Analysis &amp; Diagnostics</h3>
+            <p class="text-sm text-[#374151] leading-relaxed" data-i18n="srv2Desc">Fecal parasitology, blood smear microscopy, milk mastitis screening, and rapid infectious disease diagnostics for accurate treatment plans.</p>
+          </article>
+
+          <!-- Service 3 -->
+          <article class="rounded-2xl bg-white border border-[#F3D5D5] p-6 sm:p-7 shadow-xs hover:shadow-lg hover:border-[#DC2626] transition-all group">
+            <div class="w-12 h-12 rounded-2xl bg-[#FEF2F2] text-[#DC2626] group-hover:bg-[#DC2626] group-hover:text-white flex items-center justify-center mb-5 transition-colors">
+              <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+              </svg>
+            </div>
+            <h3 class="text-lg font-extrabold text-[#111827] mb-2.5" data-i18n="srv3Title">Veterinary Surgery &amp; Clinical Care</h3>
+            <p class="text-sm text-[#374151] leading-relaxed" data-i18n="srv3Desc">Minor and major surgical procedures, abscess drainage, wound suturing, hoof care, and emergency obstetric assistance for calving and kidding.</p>
+          </article>
+
+          <!-- Service 4 -->
+          <article class="rounded-2xl bg-white border border-[#F3D5D5] p-6 sm:p-7 shadow-xs hover:shadow-lg hover:border-[#DC2626] transition-all group">
+            <div class="w-12 h-12 rounded-2xl bg-[#FEF2F2] text-[#DC2626] group-hover:bg-[#DC2626] group-hover:text-white flex items-center justify-center mb-5 transition-colors">
+              <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </div>
+            <h3 class="text-lg font-extrabold text-[#111827] mb-2.5" data-i18n="srv4Title">Dairy &amp; Herd Productivity Support</h3>
+            <p class="text-sm text-[#374151] leading-relaxed" data-i18n="srv4Desc">Mastitis prevention protocols, mineral supplementation, fertility support, and practical dairy nutrition planning to maximize healthy milk yield.</p>
+          </article>
+
+          <!-- Service 5 -->
+          <article class="rounded-2xl bg-white border border-[#F3D5D5] p-6 sm:p-7 shadow-xs hover:shadow-lg hover:border-[#DC2626] transition-all group">
+            <div class="w-12 h-12 rounded-2xl bg-[#FEF2F2] text-[#DC2626] group-hover:bg-[#DC2626] group-hover:text-white flex items-center justify-center mb-5 transition-colors">
+              <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064" />
+              </svg>
+            </div>
+            <h3 class="text-lg font-extrabold text-[#111827] mb-2.5" data-i18n="srv5Title">Field Visits &amp; Herd Vaccination</h3>
+            <p class="text-sm text-[#374151] leading-relaxed" data-i18n="srv5Desc">Scheduled on-site farm and pastoral herd health visits, seasonal mass vaccination campaigns, and outbreak response across Berbera.</p>
+          </article>
+
+          <!-- Service 6 -->
+          <article class="rounded-2xl bg-white border border-[#F3D5D5] p-6 sm:p-7 shadow-xs hover:shadow-lg hover:border-[#DC2626] transition-all group">
+            <div class="w-12 h-12 rounded-2xl bg-[#FEF2F2] text-[#DC2626] group-hover:bg-[#DC2626] group-hover:text-white flex items-center justify-center mb-5 transition-colors">
+              <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m6 0a2 2 0 104 0m-4 0a2 2 0 114 0" />
+              </svg>
+            </div>
+            <h3 class="text-lg font-extrabold text-[#111827] mb-2.5" data-i18n="srv6Title">Walk-in Consultation &amp; Fast Delivery</h3>
+            <p class="text-sm text-[#374151] leading-relaxed" data-i18n="srv6Desc">Visit our Barwaaqo pharmacy counter for immediate expert advice, or coordinate fast local delivery throughout Berbera via WhatsApp.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         4. DAIRY & LIVESTOCK SUPPORT SPOTLIGHT (INTERACTIVE SPECIES TABS)
+    ========================================================================== -->
+    <section id="dairy-support" class="py-16 sm:py-20 bg-white border-t border-[#E5E7EB]">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="rounded-3xl bg-gradient-to-br from-[#991B1B] via-[#B91C1C] to-[#DC2626] p-6 sm:p-10 lg:p-12 text-white shadow-2xl">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
+
+            <!-- Left Header & Interactive Species Tabs -->
+            <div class="lg:col-span-5 space-y-6">
+              <div>
+                <span class="inline-block text-xs font-extrabold uppercase tracking-wider bg-white/15 border border-white/25 px-3.5 py-1 rounded-full mb-3" data-i18n="dairyEyebrow">Dairy &amp; Herd Advisory</span>
+                <h2 class="text-2xl sm:text-3xl font-black tracking-tight leading-tight" data-i18n="dairyTitle">Specialized Care Programs by Species</h2>
+                <p class="mt-3 text-sm sm:text-base text-red-100 leading-relaxed" data-i18n="dairySubtitle">
+                  Select a livestock group to view our tailored preventive health schedules, dairy hygiene protocols, and seasonal advisory focus.
+                </p>
+              </div>
+
+              <!-- Interactive Tab Buttons -->
+              <div class="flex flex-col sm:flex-row lg:flex-col gap-2.5" role="tablist" aria-label="Livestock Species Programs">
+                <button type="button" id="tab-camels" onclick="selectSpeciesTab('camels')" class="species-tab text-left px-4 py-3.5 rounded-xl font-bold text-sm flex items-center justify-between transition-all">
+                  <span data-i18n="tabCamels">Camels (Geela)</span>
+                  <svg class="w-4 h-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                  </svg>
+                </button>
+                <button type="button" id="tab-cattle" onclick="selectSpeciesTab('cattle')" class="species-tab text-left px-4 py-3.5 rounded-xl font-bold text-sm flex items-center justify-between transition-all">
+                  <span data-i18n="tabCattle">Dairy Cattle (Lo'da Caanaha)</span>
+                  <svg class="w-4 h-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                  </svg>
+                </button>
+                <button type="button" id="tab-shoats" onclick="selectSpeciesTab('shoats')" class="species-tab text-left px-4 py-3.5 rounded-xl font-bold text-sm flex items-center justify-between transition-all">
+                  <span data-i18n="tabShoats">Goats &amp; Sheep (Adhiga)</span>
+                  <svg class="w-4 h-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <!-- Right Dynamic White Detail Panel -->
+            <div class="lg:col-span-7">
+              <div id="speciesPanel" class="rounded-2xl bg-white text-[#111827] p-6 sm:p-8 shadow-xl space-y-5 animate-fade-up">
+                <!-- Populated dynamically by JS -->
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         5. FACILITY & FIELD GALLERY VIEW (WITH CATEGORY FILTERS & LIGHTBOX)
+    ========================================================================== -->
+    <section id="gallery" class="py-16 sm:py-20 bg-[#FFF5F5] border-t border-[#F3D5D5]">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <!-- Section Header -->
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
+          <div class="max-w-2xl">
+            <span class="inline-block text-xs font-extrabold uppercase tracking-wider text-[#DC2626] bg-white border border-[#F3D5D5] px-3.5 py-1 rounded-full mb-3" data-i18n="galleryEyebrow">Facility &amp; Field Showcase</span>
+            <h2 class="text-2xl sm:text-3xl lg:text-4xl font-black text-[#111827] tracking-tight" data-i18n="galleryTitle">Inside Kaafiye Veterinary Pharmacy</h2>
+            <p class="mt-2.5 text-base text-[#374151]" data-i18n="gallerySubtitle">Explore our dispensary shelves, laboratory diagnostics bench, surgical suite, and dairy &amp; field veterinary work.</p>
+          </div>
+          <div class="text-xs font-bold text-[#991B1B] bg-white border border-[#F3D5D5] px-3.5 py-2 rounded-xl self-start md:self-auto">
+            <span id="galleryCount">8</span> <span data-i18n="galleryPhotosLabel">photos</span>
+          </div>
+        </div>
+
+        <!-- Category Filter Pills -->
+        <div id="galleryFilters" class="flex items-center gap-2 overflow-x-auto no-scrollbar pb-2 mb-8" role="tablist" aria-label="Gallery Categories">
+          <!-- Rendered dynamically by JS -->
+        </div>
+
+        <!-- Responsive Gallery Grid -->
+        <div id="galleryGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+          <!-- Rendered dynamically by JS -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         6. CONTACT, HOURS & LOCATION SECTION
+    ========================================================================== -->
+    <section id="contact" class="py-16 sm:py-20 bg-white border-t border-[#E5E7EB]">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="max-w-2xl mb-10 sm:mb-12">
+          <span class="inline-block text-xs font-extrabold uppercase tracking-wider text-[#DC2626] bg-[#FEF2F2] border border-[#F3D5D5] px-3.5 py-1 rounded-full mb-3" data-i18n="contactEyebrow">Contact &amp; Visit Us</span>
+          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-black text-[#111827] tracking-tight" data-i18n="contactTitle">Hours, Location &amp; Consultation</h2>
+          <p class="mt-2.5 text-base text-[#374151]" data-i18n="contactSubtitle">Visit us on Road No. 1, Barwaaqo, Berbera or request a veterinary consultation below.</p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10">
+
+          <!-- Left Column: Location, Weekly Hours (EAT), Payments & Amenities, Social -->
+          <div class="lg:col-span-6 space-y-6">
+
+            <!-- Address & Map Actions -->
+            <div class="rounded-2xl bg-[#FFF5F5] border border-[#F3D5D5] p-6">
+              <div class="flex flex-col sm:flex-row sm:items-start justify-between gap-4">
+                <div>
+                  <h3 class="text-base font-extrabold text-[#111827] flex items-center gap-2">
+                    <svg class="w-5 h-5 text-[#DC2626]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                    <span data-i18n="addressHeading">Pharmacy Location</span>
+                  </h3>
+                  <p class="mt-1.5 text-base font-bold text-[#111827]">Road No. 1, Barwaaqo, Berbera</p>
+                  <p class="text-xs text-[#374151] mt-1" data-i18n="addressSub">Main-road access with free street parking &amp; free Wi-Fi.</p>
+                </div>
+
+                <div class="flex flex-wrap gap-2 shrink-0">
+                  <button type="button" onclick="copyText('Kaafiye Veterinary Pharmacy, Road No. 1, Barwaaqo, Berbera', 'addressCopied')" class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-white border border-[#F3D5D5] hover:border-[#DC2626] text-[#111827] hover:text-[#DC2626] text-xs font-bold transition-colors">
+                    <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                    </svg>
+                    <span data-i18n="copyAddressBtn">Copy</span>
+                  </button>
+                  <a href="https://www.google.com/maps/search/?api=1&query=Kaafiye+Veterinary+Pharmacy+Barwaaqo+Berbera" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-[#DC2626] hover:bg-[#B91C1C] text-white text-xs font-bold transition-colors">
+                    <span data-i18n="openMapsBtn">Google Maps</span>
+                    <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Weekly Hours Table (EAT UTC+3) -->
+            <div class="rounded-2xl bg-white border border-[#E5E7EB] p-6 shadow-xs">
+              <div class="flex items-center justify-between mb-4">
+                <h3 class="text-base font-extrabold text-[#111827] flex items-center gap-2">
+                  <svg class="w-5 h-5 text-[#DC2626]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                  <span data-i18n="hoursCardTitle">Opening Hours (EAT)</span>
+                </h3>
+                <span id="hoursSectionBadge" class="text-xs font-extrabold px-3 py-1 rounded-full bg-[#FEF2F2] text-[#DC2626]">Open</span>
+              </div>
+
+              <div id="hoursTable" class="divide-y divide-[#E5E7EB] text-sm">
+                <!-- Populated dynamically by JS -->
+              </div>
+            </div>
+
+            <!-- Payments & Amenities Chips -->
+            <div class="rounded-2xl bg-white border border-[#E5E7EB] p-6 shadow-xs space-y-4">
+              <h3 class="text-base font-extrabold text-[#111827]" data-i18n="amenitiesHeading">Payments &amp; Store Amenities</h3>
+              <div class="flex flex-wrap gap-2">
+                <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-[#FEF2F2] border border-[#F3D5D5] text-xs font-bold text-[#991B1B]" data-i18n="badgeCards">Credit / Debit Cards</span>
+                <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-[#FEF2F2] border border-[#F3D5D5] text-xs font-bold text-[#991B1B]" data-i18n="badgeNfc">NFC Mobile Payments</span>
+                <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-[#FEF2F2] border border-[#F3D5D5] text-xs font-bold text-[#991B1B]" data-i18n="badgeChecks">Checks Accepted</span>
+                <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-[#FEF2F2] border border-[#F3D5D5] text-xs font-bold text-[#991B1B]" data-i18n="badgeParking">Free Street Parking</span>
+                <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-[#FEF2F2] border border-[#F3D5D5] text-xs font-bold text-[#991B1B]" data-i18n="badgeWifi">Free Wi-Fi</span>
+                <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-[#FEF2F2] border border-[#F3D5D5] text-xs font-bold text-[#991B1B]" data-i18n="badgeDelivery">Delivery Available</span>
+                <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-[#FEF2F2] border border-[#F3D5D5] text-xs font-bold text-[#991B1B]" data-i18n="badgeWalkin">Walk-ins Welcome</span>
+              </div>
+
+              <!-- Direct Social & WhatsApp Buttons -->
+              <div class="pt-3 border-t border-[#E5E7EB] flex flex-wrap gap-3">
+                <a href="https://wa.me/?text=Hello%20Kaafiye%20Veterinary%20Pharmacy%20(Berbera)%2C%20I%20would%20like%20to%20request%20a%20veterinary%20consultation." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-[#DC2626] hover:bg-[#B91C1C] text-white text-xs sm:text-sm font-bold transition-colors">
+                  <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                  </svg>
+                  <span data-i18n="whatsappBtn">WhatsApp Consultation</span>
+                </a>
+                <a href="https://www.tiktok.com/@mccphilo" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-[#111827] hover:bg-[#374151] text-white text-xs sm:text-sm font-bold transition-colors">
+                  <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 012.31-4.64 2.93 2.93 0 01.88.13V9.4a6.84 6.84 0 00-1-.05A6.33 6.33 0 005 20.1a6.34 6.34 0 0010.86-4.43v-7a8.16 8.16 0 004.77 1.52v-3.4a4.85 4.85 0 01-1-.1z"/>
+                  </svg>
+                  <span>TikTok @mccphilo</span>
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Right Column: Request a Veterinary Consultation Form -->
+          <div class="lg:col-span-6">
+            <div class="rounded-3xl bg-white border-2 border-[#F3D5D5] p-6 sm:p-8 shadow-lg">
+              <div class="mb-6">
+                <h3 class="text-xl sm:text-2xl font-black text-[#111827]" data-i18n="formTitle">Request a Veterinary Consultation</h3>
+                <p class="text-sm text-[#374151] mt-1" data-i18n="formSubtitle">Share your livestock concern or farm support request. We will format a clean consultation brief ready to send via WhatsApp.</p>
+              </div>
+
+              <form id="consultationForm" onsubmit="handleConsultationSubmit(event)" class="space-y-4" novalidate>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div>
+                    <label for="consultName" class="block text-xs font-bold text-[#111827] mb-1.5" data-i18n="labelName">Full Name *</label>
+                    <input id="consultName" type="text" required placeholder="e.g., Mohamed Farah" class="w-full px-4 py-3 rounded-xl border border-[#E5E7EB] bg-[#FFF5F5]/40 focus:bg-white focus:border-[#DC2626] focus:ring-2 focus:ring-[#DC2626]/20 outline-none text-sm transition-all" />
+                  </div>
+                  <div>
+                    <label for="consultPhone" class="block text-xs font-bold text-[#111827] mb-1.5" data-i18n="labelPhone">Phone / WhatsApp *</label>
+                    <input id="consultPhone" type="tel" required placeholder="e.g., +252 63 ..." class="w-full px-4 py-3 rounded-xl border border-[#E5E7EB] bg-[#FFF5F5]/40 focus:bg-white focus:border-[#DC2626] focus:ring-2 focus:ring-[#DC2626]/20 outline-none text-sm transition-all" />
+                  </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div>
+                    <label for="consultLivestock" class="block text-xs font-bold text-[#111827] mb-1.5" data-i18n="labelLivestock">Livestock Type *</label>
+                    <select id="consultLivestock" required class="w-full px-4 py-3 rounded-xl border border-[#E5E7EB] bg-[#FFF5F5]/40 focus:bg-white focus:border-[#DC2626] focus:ring-2 focus:ring-[#DC2626]/20 outline-none text-sm transition-all">
+                      <option value="Camels" data-i18n="optCamels">Camels</option>
+                      <option value="Dairy Cattle" data-i18n="optCattle">Dairy Cattle</option>
+                      <option value="Goats & Sheep" data-i18n="optShoats">Goats &amp; Sheep</option>
+                      <option value="Poultry" data-i18n="optPoultry">Poultry</option>
+                      <option value="Mixed Herd" data-i18n="optMixed">Mixed Herd / Farm</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label for="consultService" class="block text-xs font-bold text-[#111827] mb-1.5" data-i18n="labelService">Service Needed *</label>
+                    <select id="consultService" required class="w-full px-4 py-3 rounded-xl border border-[#E5E7EB] bg-[#FFF5F5]/40 focus:bg-white focus:border-[#DC2626] focus:ring-2 focus:ring-[#DC2626]/20 outline-none text-sm transition-all">
+                      <option value="Pharmacy & Medicine Advice" data-i18n="srvOpt1">Pharmacy &amp; Medicine Advice</option>
+                      <option value="Lab Analysis & Diagnostics" data-i18n="srvOpt2">Lab Analysis &amp; Diagnostics</option>
+                      <option value="Surgery & Clinical Care" data-i18n="srvOpt3">Surgery &amp; Clinical Care</option>
+                      <option value="Dairy & Herd Productivity" data-i18n="srvOpt4">Dairy &amp; Herd Productivity</option>
+                      <option value="Field Visit / Vaccination" data-i18n="srvOpt5">Field Visit / Vaccination</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div>
+                  <label for="consultMessage" class="block text-xs font-bold text-[#111827] mb-1.5" data-i18n="labelMessage">Symptoms / Consultation Message *</label>
+                  <textarea id="consultMessage" rows="4" required placeholder="Describe herd size, symptoms, location in Berbera, or requested visit date..." class="w-full px-4 py-3 rounded-xl border border-[#E5E7EB] bg-[#FFF5F5]/40 focus:bg-white focus:border-[#DC2626] focus:ring-2 focus:ring-[#DC2626]/20 outline-none text-sm resize-none transition-all"></textarea>
+                </div>
+
+                <!-- Validation Error Inline Box -->
+                <div id="formErrorBox" class="hidden rounded-xl bg-[#FEF2F2] border border-[#DC2626] px-4 py-3 text-xs font-bold text-[#991B1B]"></div>
+
+                <button type="submit" class="w-full py-3.5 px-6 rounded-xl bg-[#DC2626] hover:bg-[#B91C1C] text-white font-extrabold text-sm sm:text-base shadow-md shadow-red-600/20 transition-all flex items-center justify-center gap-2">
+                  <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                  </svg>
+                  <span data-i18n="submitBtn">Prepare Consultation Request</span>
+                </button>
+              </form>
+
+              <!-- Confirmation Summary Box (Shown on Valid Submission) -->
+              <div id="consultConfirmation" class="hidden mt-6 rounded-2xl bg-[#FEF2F2] border border-[#F3D5D5] p-5 space-y-3 animate-fade-up">
+                <div class="flex items-center justify-between">
+                  <span class="text-xs font-extrabold uppercase tracking-wider text-[#991B1B]" data-i18n="confirmHeading">Consultation Brief Ready</span>
+                  <span class="text-[11px] font-bold px-2.5 py-0.5 rounded-full bg-white text-[#DC2626] border border-[#F3D5D5]" data-i18n="confirmReadyTag">WhatsApp Ready</span>
+                </div>
+                <pre id="consultSummaryText" class="whitespace-pre-wrap font-sans text-xs text-[#111827] bg-white p-3.5 rounded-xl border border-[#F3D5D5] leading-relaxed"></pre>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+                  <a id="consultWhatsappLink" href="#" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-[#DC2626] hover:bg-[#B91C1C] text-white text-xs font-bold transition-colors">
+                    <span data-i18n="openWhatsappBtn">Send via WhatsApp</span>
+                  </a>
+                  <button type="button" onclick="copyConsultationSummary()" class="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-white border border-[#DC2626] hover:bg-[#FEF2F2] text-[#DC2626] text-xs font-bold transition-colors">
+                    <span data-i18n="copySummaryBtn">Copy to Clipboard</span>
+                  </button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================================
+       7. CORPORATE DEEP CRIMSON FOOTER (#991B1B)
+  ========================================================================== -->
+  <footer class="bg-[#991B1B] text-white pt-14 pb-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-8 pb-10 border-b border-white/15">
+
+        <!-- Brand & Logo Column -->
+        <div class="md:col-span-5 space-y-4">
+          <div class="flex items-center gap-3.5">
+            <div class="w-14 h-14 rounded-full bg-white p-0.5 shadow-md shrink-0 overflow-hidden">
+              <img
+                src="493202c2-3796-4288-8e44-544adc7b6b52.jpeg"
+                alt="Kaafiye Veterinary Pharmacy Logo"
+                class="w-full h-full rounded-full object-cover"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"
+              />
+              <svg class="w-full h-full hidden rounded-full" viewBox="0 0 240 240" aria-hidden="true">
+                <use href="#kvp-logo-symbol"></use>
+              </svg>
+            </div>
+            <div>
+              <span class="block text-lg font-black tracking-tight text-white" data-i18n="brandName">Kaafiye Veterinary Pharmacy</span>
+              <span class="block text-xs font-semibold text-red-200" data-i18n="brandSub">Road No. 1, Barwaaqo, Berbera</span>
+            </div>
+          </div>
+          <p class="text-sm text-red-100 leading-relaxed max-w-md" data-i18n="footerSummary">
+            Berbera's dedicated veterinary pharmacy and livestock health center providing genuine medicines, laboratory diagnostics, surgical care, and dairy herd advisory.
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="md:col-span-3 space-y-3">
+          <h4 class="text-xs font-extrabold uppercase tracking-wider text-red-200" data-i18n="footerLinksTitle">Quick Links</h4>
+          <ul class="space-y-2 text-sm font-medium text-white/90">
+            <li><a href="#home" class="hover:text-white hover:underline" data-i18n="navHome">Home</a></li>
+            <li><a href="#about" class="hover:text-white hover:underline" data-i18n="navAbout">About Us</a></li>
+            <li><a href="#services" class="hover:text-white hover:underline" data-i18n="navServices">Services</a></li>
+            <li><a href="#dairy-support" class="hover:text-white hover:underline" data-i18n="navDairy">Dairy Support</a></li>
+            <li><a href="#gallery" class="hover:text-white hover:underline" data-i18n="navGallery">Gallery</a></li>
+            <li><a href="#contact" class="hover:text-white hover:underline" data-i18n="navContact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Hours & Address -->
+        <div class="md:col-span-4 space-y-3">
+          <h4 class="text-xs font-extrabold uppercase tracking-wider text-red-200" data-i18n="footerHoursTitle">Hours &amp; Location</h4>
+          <p class="text-sm text-white/95 font-semibold">Road No. 1, Barwaaqo, Berbera</p>
+          <p class="text-sm text-red-100" data-i18n="footerHoursLine1">Sat – Thu: 7:00 AM – 10:00 PM (EAT)</p>
+          <p class="text-sm text-red-200 font-semibold" data-i18n="footerHoursLine2">Friday: Closed</p>
+          <p class="text-xs text-red-100 pt-1">TikTok: <a href="https://www.tiktok.com/@mccphilo" target="_blank" rel="noopener noreferrer" class="underline font-bold text-white">@mccphilo</a></p>
+        </div>
+
+      </div>
+
+      <div class="pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-red-200">
+        <p>&copy; <span id="currentYear">2026</span> <span data-i18n="brandName">Kaafiye Veterinary Pharmacy</span>. <span data-i18n="footerRights">All rights reserved.</span></p>
+        <p data-i18n="footerNotice">Clinical Excellence · Barwaaqo, Berbera</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       GALLERY LIGHTBOX MODAL (WITH KEYBOARD & BUTTON NAVIGATION)
+  ========================================================================== -->
+  <div id="lightboxModal" class="fixed inset-0 z-50 hidden bg-[#111827]/90 backdrop-blur-sm flex items-center justify-center p-4" role="dialog" aria-modal="true" aria-label="Gallery Lightbox">
+    <!-- Close Button -->
+    <button type="button" onclick="closeLightbox()" class="absolute top-4 right-4 z-10 p-3 rounded-full bg-white/10 hover:bg-[#DC2626] text-white transition-colors" aria-label="Close Lightbox">
+      <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </button>
+
+    <!-- Prev Button -->
+    <button type="button" onclick="navigateLightbox(-1)" class="absolute left-3 sm:left-6 z-10 p-3 rounded-full bg-white/15 hover:bg-[#DC2626] text-white transition-colors" aria-label="Previous Image">
+      <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+      </svg>
+    </button>
+
+    <!-- Lightbox Content Card -->
+    <div class="max-w-4xl w-full bg-white rounded-3xl overflow-hidden shadow-2xl border-2 border-[#DC2626]/40 animate-fade-up">
+      <div class="relative bg-[#111827] aspect-[16/10] w-full flex items-center justify-center overflow-hidden">
+        <img id="lightboxImg" src="" alt="" class="w-full h-full object-cover" />
+        <div id="lightboxFallback" class="hidden w-full h-full items-center justify-center bg-[#FEF2F2]">
+          <svg class="w-full h-full max-h-[360px]" viewBox="0 0 320 200" aria-hidden="true">
+            <use id="lightboxFallbackUse" href="#svg-livestock-camel"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="p-5 sm:p-6 bg-white flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+        <div>
+          <span id="lightboxCategory" class="inline-block text-[11px] font-extrabold uppercase tracking-wider text-[#DC2626] bg-[#FEF2F2] border border-[#F3D5D5] px-2.5 py-0.5 rounded-full mb-1.5"></span>
+          <h3 id="lightboxTitle" class="text-base sm:text-lg font-extrabold text-[#111827]"></h3>
+          <p id="lightboxDesc" class="text-xs sm:text-sm text-[#374151] mt-0.5"></p>
+        </div>
+        <span id="lightboxCounter" class="text-xs font-extrabold text-[#991B1B] bg-[#FEF2F2] px-3 py-1.5 rounded-xl shrink-0 self-start sm:self-center">1 / 8</span>
+      </div>
+    </div>
+
+    <!-- Next Button -->
+    <button type="button" onclick="navigateLightbox(1)" class="absolute right-3 sm:right-6 z-10 p-3 rounded-full bg-white/15 hover:bg-[#DC2626] text-white transition-colors" aria-label="Next Image">
+      <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+      </svg>
+    </button>
+  </div>
+
+  <!-- =========================================================================
+       TOAST NOTIFICATION CONTAINER (NO ALERT / CONFIRM)
+  ========================================================================== -->
+  <div id="toastContainer" class="fixed bottom-5 left-1/2 -translate-x-1/2 z-50 pointer-events-none px-4 w-full max-w-sm flex flex-col items-center gap-2"></div>
+
+  <!-- =========================================================================
+       APPLICATION JAVASCRIPT
+  ========================================================================== -->
+  <script>
+    (function () {
+      'use strict';
+
+      /* -----------------------------------------------------------------------
+         1. BILINGUAL DICTIONARY (ENGLISH / SOMALI)
+      ----------------------------------------------------------------------- */
+      const I18N = {
+        en: {
+          brandName: 'Kaafiye Veterinary Pharmacy',
+          brandSub: 'Road No. 1, Barwaaqo, Berbera',
+          navHome: 'Home',
+          navAbout: 'About Us',
+          navServices: 'Services',
+          navDairy: 'Dairy Support',
+          navGallery: 'Gallery',
+          navContact: 'Contact',
+          navCta: 'Consult Us',
+
+          heroTitlePart1: 'Trusted Veterinary Pharmacy &',
+          heroTitlePart2: ' Livestock Care in Berbera',
+          heroSubtitle: 'Delivering genuine veterinary medicines, laboratory diagnostics, surgical care, and dairy & herd advisory for camels, cattle, goats, and sheep across Berbera and the Sahil region.',
+          heroCtaServices: 'Our Services',
+          heroCtaGallery: 'View Facility Gallery',
+          heroBadgeEyebrow: "Berbera's Veterinary Partner",
+          heroBadgeTitle: 'Camels · Cattle · Goats · Sheep',
+          metricDays: 'Sat – Thu Open',
+          metricHours: 'Daily Access',
+          metricGenuine: 'Verified Stock',
+          trust1: 'Licensed Vet Specialists',
+          trust2: 'Cold-Chain Medicines',
+          trust3: 'Walk-in & Local Delivery',
+
+          statusOpen: 'Open Now · Closes 10:00 PM EAT',
+          statusClosedFri: 'Closed Today (Friday) · Opens Sat 7:00 AM',
+          statusClosedBefore: 'Closed · Opens Today 7:00 AM EAT',
+          statusClosedAfter: 'Closed · Opens Tomorrow 7:00 AM EAT',
+          statusClosedThuNight: 'Closed · Closed Fridays (Opens Sat 7:00 AM)',
+          badgeOpenShort: 'Open Now',
+          badgeClosedShort: 'Closed',
+
+          aboutBadge: 'Serving Berbera & Sahil',
+          aboutCardTitle: 'Healthy Herds, Stronger Livelihoods',
+          aboutCardSub: 'Quality pharmaceuticals & evidence-based veterinary support.',
+          aboutEyebrow: 'About Kaafiye Veterinary Pharmacy',
+          aboutTitle: 'Dedicated to Clinical Standards & Pastoral Prosperity',
+          aboutP1: 'Located on Road No. 1 in Barwaaqo, Berbera, Kaafiye Veterinary Pharmacy is a trusted veterinary pharmacy and animal health center serving pastoralists, dairy farmers, and livestock exporters across the Sahil region.',
+          aboutP2: 'We combine strict cold-chain pharmaceutical storage with practical clinical guidance—ensuring every herd receives authentic medicines, accurate diagnostics, and responsible dosage protocols that safeguard animal welfare and food safety.',
+          pillar1Title: 'Authentic Veterinary Supply',
+          pillar1Desc: 'Sourced from reputable manufacturers with strict batch and expiry verification.',
+          pillar2Title: 'Diagnostic Precision',
+          pillar2Desc: 'Laboratory screening to identify parasites and infections before treatment.',
+          pillar3Title: 'Dairy & Pastoral Focus',
+          pillar3Desc: 'Specialized care programs tailored for camels, dairy cattle, goats, and sheep.',
+          pillar4Title: 'Accessible 6 Days a Week',
+          pillar4Desc: 'Extended hours (7 AM – 10 PM) with convenient counter pickup and local delivery.',
+
+          servicesEyebrow: 'Clinical & Pharmacy Services',
+          servicesTitle: 'Comprehensive Animal Health Care',
+          servicesSubtitle: 'Professional veterinary pharmacy dispensing, laboratory diagnostics, surgical care, and field support under one roof.',
+          srv1Title: 'Veterinary Pharmacy & Dispensary',
+          srv1Desc: 'Genuine vaccines, antibiotics, dewormers, acaricides, and essential vitamins dispensed with clear species-specific dosage and withdrawal period guidance.',
+          srv2Title: 'Laboratory Analysis & Diagnostics',
+          srv2Desc: 'Fecal parasitology, blood smear microscopy, milk mastitis screening, and rapid infectious disease diagnostics for accurate treatment plans.',
+          srv3Title: 'Veterinary Surgery & Clinical Care',
+          srv3Desc: 'Minor and major surgical procedures, abscess drainage, wound suturing, hoof care, and emergency obstetric assistance for calving and kidding.',
+          srv4Title: 'Dairy & Herd Productivity Support',
+          srv4Desc: 'Mastitis prevention protocols, mineral supplementation, fertility support, and practical dairy nutrition planning to maximize healthy milk yield.',
+          srv5Title: 'Field Visits & Herd Vaccination',
+          srv5Desc: 'Scheduled on-site farm and pastoral herd health visits, seasonal mass vaccination campaigns, and outbreak response across Berbera.',
+          srv6Title: 'Walk-in Consultation & Fast Delivery',
+          srv6Desc: 'Visit our Barwaaqo pharmacy counter for immediate expert advice, or coordinate fast local delivery throughout Berbera via WhatsApp.',
+
+          dairyEyebrow: 'Dairy & Herd Advisory',
+          dairyTitle: 'Specialized Care Programs by Species',
+          dairySubtitle: 'Select a livestock group to view our tailored preventive health schedules, dairy hygiene protocols, and seasonal advisory focus.',
+          tabCamels: 'Camels (Geela)',
+          tabCattle: "Dairy Cattle (Lo'da Caanaha)",
+          tabShoats: 'Goats & Sheep (Adhiga)',
+
+          galleryEyebrow: 'Facility & Field Showcase',
+          galleryTitle: 'Inside Kaafiye Veterinary Pharmacy',
+          gallerySubtitle: 'Explore authentic Somali livestock herds we serve—camels, cattle, goats, and sheep—alongside our Berbera pharmacy and diagnostic lab.',
+          galleryPhotosLabel: 'photos',
+          galCatAll: 'All',
+          galCatCamels: 'Camels / Geel',
+          galCatCattle: "Cattle / Lo'",
+          galCatShoats: 'Goats & Sheep / Adhi',
+          galCatClinic: 'Pharmacy & Clinic',
+
+          contactEyebrow: 'Contact & Visit Us',
+          contactTitle: 'Hours, Location & Consultation',
+          contactSubtitle: 'Visit us on Road No. 1, Barwaaqo, Berbera or request a veterinary consultation below.',
+          addressHeading: 'Pharmacy Location',
+          addressSub: 'Main-road access with free street parking & free Wi-Fi.',
+          copyAddressBtn: 'Copy',
+          openMapsBtn: 'Google Maps',
+          hoursCardTitle: 'Opening Hours (EAT)',
+          dayClosed: 'Closed',
+          todayTag: 'Today',
+          amenitiesHeading: 'Payments & Store Amenities',
+          badgeCards: 'Credit / Debit Cards',
+          badgeNfc: 'NFC Mobile Payments',
+          badgeChecks: 'Checks Accepted',
+          badgeParking: 'Free Street Parking',
+          badgeWifi: 'Free Wi-Fi',
+          badgeDelivery: 'Delivery Available',
+          badgeWalkin: 'Walk-ins Welcome',
+          whatsappBtn: 'WhatsApp Consultation',
+
+          formTitle: 'Request a Veterinary Consultation',
+          formSubtitle: 'Share your livestock concern or farm support request. We will format a clean consultation brief ready to send via WhatsApp.',
+          labelName: 'Full Name *',
+          labelPhone: 'Phone / WhatsApp *',
+          labelLivestock: 'Livestock Type *',
+          labelService: 'Service Needed *',
+          labelMessage: 'Symptoms / Consultation Message *',
+          optCamels: 'Camels',
+          optCattle: 'Dairy Cattle',
+          optShoats: 'Goats & Sheep',
+          optPoultry: 'Poultry',
+          optMixed: 'Mixed Herd / Farm',
+          srvOpt1: 'Pharmacy & Medicine Advice',
+          srvOpt2: 'Lab Analysis & Diagnostics',
+          srvOpt3: 'Surgery & Clinical Care',
+          srvOpt4: 'Dairy & Herd Productivity',
+          srvOpt5: 'Field Visit / Vaccination',
+          submitBtn: 'Prepare Consultation Request',
+          confirmHeading: 'Consultation Brief Ready',
+          confirmReadyTag: 'WhatsApp Ready',
+          openWhatsappBtn: 'Send via WhatsApp',
+          copySummaryBtn: 'Copy to Clipboard',
+          formErrRequired: 'Please complete your name, phone number, and consultation message.',
+
+          footerSummary: "Berbera's dedicated veterinary pharmacy and livestock health center providing genuine medicines, laboratory diagnostics, surgical care, and dairy herd advisory.",
+          footerLinksTitle: 'Quick Links',
+          footerHoursTitle: 'Hours & Location',
+          footerHoursLine1: 'Sat – Thu: 7:00 AM – 10:00 PM (EAT)',
+          footerHoursLine2: 'Friday: Closed',
+          footerRights: 'All rights reserved.',
+          footerNotice: 'Clinical Excellence · Barwaaqo, Berbera',
+
+          toastAddressCopied: 'Pharmacy address copied!',
+          toastSummaryCopied: 'Consultation brief copied to clipboard!',
+          toastCopyFail: 'Could not copy automatically. Please copy the text manually.',
+          toastFormReady: 'Consultation brief prepared below!',
+
+          days: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+        },
+
+        so: {
+          brandName: 'Farmashiyaha Xoolaha ee Kaafiye',
+          brandSub: 'Wadada 1aad, Barwaaqo, Berbera',
+          navHome: 'Bogga Hore',
+          navAbout: 'Nagu Saabsan',
+          navServices: 'Adeegyada',
+          navDairy: 'Taageerada Caanaha',
+          navGallery: 'Sawirrada',
+          navContact: 'Nala Soo Xiriir',
+          navCta: 'La-Tashi',
+
+          heroTitlePart1: 'Farmashiyaha Xoolaha ee Lagu Kalsoon Yahay &',
+          heroTitlePart2: ' Daryeelka Xoolaha Berbera',
+          heroSubtitle: 'Waxaan xoolo-dhaqatada iyo beeraha gobolka Saaxil u haynaa dawooyin tayo leh, baaritaanno shaybaar, qalliin xoolo, iyo talooyinka caanaha ee geela, lo\'da, riyaha iyo idaha.',
+          heroCtaServices: 'Adeegyadayada',
+          heroCtaGallery: 'Daawo Sawirrada Xarunta',
+          heroBadgeEyebrow: 'Saaxiibka Caafimaadka Xoolaha Berbera',
+          heroBadgeTitle: "Geela · Lo'da · Riyaha · Idaha",
+          metricDays: 'Sabti – Khamiis',
+          metricHours: 'Adeeg Maalinle ah',
+          metricGenuine: 'Dawooyin La Hubiyay',
+          trust1: 'Khubaro Caafimaadka Xoolaha',
+          trust2: 'Dawooyin Qaboojiye (Cold-Chain)',
+          trust3: 'Soo Booqasho & Gaarsiin',
+
+          statusOpen: 'Wuu Furan Yahay · Wuxuu Xirmaa 10:00 PM (EAT)',
+          statusClosedFri: 'Maanta Waa Xiran Yahay (Jimce) · Wuxuu Furmaa Sabti 7:00 AM',
+          statusClosedBefore: 'Wuu Xiran Yahay · Wuxuu Furmaa Maanta 7:00 AM (EAT)',
+          statusClosedAfter: 'Wuu Xiran Yahay · Wuxuu Furmaa Berri 7:00 AM (EAT)',
+          statusClosedThuNight: 'Wuu Xiran Yahay · Jimcaha Waa Xiran Yahay (Sabti 7:00 AM)',
+          badgeOpenShort: 'Furan',
+          badgeClosedShort: 'Xiran',
+
+          aboutBadge: 'U Adeegidda Berbera & Saaxil',
+          aboutCardTitle: 'Xoolo Caafimaad Qaba, Nolol Xooggan',
+          aboutCardSub: 'Dawooyin tayo sare leh iyo taageero caafimaad oo cilmi ku dhisan.',
+          aboutEyebrow: 'Ku Saabsan Farmashiyaha Xoolaha ee Kaafiye',
+          aboutTitle: 'Heer Caafimaad oo Sare & Horumarinta Xoolo-Dhaqatada',
+          aboutP1: 'Farmashiyaha Xoolaha ee Kaafiye oo ku yaalla Wadada 1aad, Barwaaqo, Berbera waa xarun lagu kalsoon yahay oo u adeegta xoolo-dhaqatada, beeraha caanaha, iyo dhoofiyayaasha xoolaha ee gobolka Saaxil.',
+          aboutP2: 'Waxaan isku darnaa kaydinta dawooyinka ee heerka caalami ah (cold-chain) iyo talooyin caafimaad oo dhab ah—si neef kasta u helo dawo sax ah, baaritaan huban, iyo qiyaas ilaalisa caafimaadka xoolaha iyo badqabka cuntada.',
+          pillar1Title: 'Dawooyin Xoolo oo Tayo Leh',
+          pillar1Desc: 'Waxaa laga keenaa shirkado la aqoonsan yahay iyadoo la hubiyo taariikhda dhicitaanka.',
+          pillar2Title: 'Baaritaan Shaybaar oo Sax ah',
+          pillar2Desc: 'Baaritaanka dulinka iyo caabuqa ka hor inta aan la bilaabin daweynta.',
+          pillar3Title: 'Xoolaha Caanaha & Miyiga',
+          pillar3Desc: 'Barnaamijyo daryeel oo u gaar ah geela, lo\'da caanaha, riyaha, iyo idaha.',
+          pillar4Title: 'Furan 6 Maalmood Todobaadkii',
+          pillar4Desc: 'Saacado dheer (7 Subaxnimo – 10 Habeennimo) oo leh soo booqasho iyo gaarsiin.',
+
+          servicesEyebrow: 'Adeegyada Caafimaadka & Farmashiyaha',
+          servicesTitle: 'Daryeel Dhammaystiran oo Xoolaha ah',
+          servicesSubtitle: 'Bixinta dawooyinka xoolaha, baaritaanka shaybaarka, qalliinka, iyo booqashada xeryaha oo hal meel laga helo.',
+          srv1Title: 'Farmashiyaha & Bixinta Dawooyinka',
+          srv1Desc: 'Tallaallo, antibiyootik, dawooyinka gooryaanka iyo shilinta, iyo fiitamiinno la bixiyo iyadoo la raacinayo qiyaasta saxda ah iyo muddada sugitaanka caanaha/hilibka.',
+          srv2Title: 'Baaritaanka Shaybaarka (Lab Analysis)',
+          srv2Desc: 'Baaritaanka saxarada ee dulinka, dhiigga, baaritaanka caabuqa naasaha (mastitis), iyo ogaanshaha degdegga ah ee cudurrada.',
+          srv3Title: 'Qalliinka & Daryeelka Caafimaadka',
+          srv3Desc: 'Qalliinnada yaryar iyo kuwa waaweyn, furista malaxda, tolista nabarrada, daryeelka ciddiyaha, iyo gargaarka dhalmada adag.',
+          srv4Title: 'Taageerada Caanaha & Wax-soosaarka',
+          srv4Desc: 'Ka-hortagga mastitis-ka, kabista macdanta, kor u qaadidda taranka, iyo talooyinka quudinta si loo kordhiyo wax-soosaarka caanaha.',
+          srv5Title: 'Booqashada Xeryaha & Tallaalka',
+          srv5Desc: 'Booqashooyin qorshaysan oo beeraha iyo xeryaha ah, ololayaasha tallaalka xilliyeed, iyo ka-jawaabista xaaladaha degdegga ah.',
+          srv6Title: 'La-Tashi Toos ah & Gaarsiin Degdeg ah',
+          srv6Desc: 'Nagu soo booqo Barwaaqo si aad u hesho talo degdeg ah, ama ku dalbo gaarsiin gudaha Berbera adigoo adeegsanaya WhatsApp.',
+
+          dairyEyebrow: 'Talooyinka Caanaha & Xoolaha',
+          dairyTitle: 'Barnaamijyada Daryeelka Noocyada Xoolaha',
+          dairySubtitle: 'Dooro nooca xoolaha si aad u aragto jadwalka ka-hortagga cudurrada, nadaafadda caanaha, iyo talooyinka xilliyeed.',
+          tabCamels: 'Geela (Camels)',
+          tabCattle: "Lo'da Caanaha (Dairy Cattle)",
+          tabShoats: 'Riyaha & Idaha (Adhiga)',
+
+          galleryEyebrow: 'Sawirrada Xoolaha & Xarunta',
+          galleryTitle: 'Xoolaha Soomaaliyeed & Farmashiyaha Kaafiye',
+          gallerySubtitle: 'Daawo xoolaha aan u adeegno—geela, lo\'da, riyaha, iyo idaha Soomaaliyeed—iyo khaanadaha dawooyinka iyo shaybaarka Berbera.',
+          galleryPhotosLabel: 'sawirro',
+          galCatAll: 'Dhammaan',
+          galCatCamels: 'Geela',
+          galCatCattle: "Lo'da",
+          galCatShoats: 'Adhiga (Riyo & Ido)',
+          galCatClinic: 'Farmashiyaha & Shaybaarka',
+
+          contactEyebrow: 'Nala Soo Xiriir & Nagu Soo Booqo',
+          contactTitle: 'Saacadaha, Goobta & La-Tashiga',
+          contactSubtitle: 'Nagu soo booqo Wadada 1aad, Barwaaqo, Berbera ama buuxi foomka la-tashiga ee hoose.',
+          addressHeading: 'Goobta Farmashiyaha',
+          addressSub: 'Waddo weyn oo sahlan oo leh baarkin bilaash ah & Wi-Fi bilaash ah.',
+          copyAddressBtn: 'Koobiyee',
+          openMapsBtn: 'Khariidadda Google',
+          hoursCardTitle: 'Saacadaha Shaqada (EAT)',
+          dayClosed: 'Xiran',
+          todayTag: 'Maanta',
+          amenitiesHeading: 'Lacag-bixinta & Adeegyada Goobta',
+          badgeCards: 'Kaadhadhka Bangiga',
+          badgeNfc: 'Lacag-bixinta NFC Mobile',
+          badgeChecks: 'Jeegagga Waa La Aqbalaa',
+          badgeParking: 'Baarkin Bilaash ah',
+          badgeWifi: 'Wi-Fi Bilaash ah',
+          badgeDelivery: 'Gaarsiin Waa Jirtaa',
+          badgeWalkin: 'Soo Booqasho Toos ah',
+          whatsappBtn: 'La-Tashi WhatsApp ah',
+
+          formTitle: 'Codso La-Tashi Caafimaadka Xoolaha',
+          formSubtitle: 'Noo soo gudbi xaaladda xoolahaaga ama codsiga booqashada. Waxaan kuu diyaarinaynaa qoraal nadiif ah oo aad WhatsApp ugu diri karto.',
+          labelName: 'Magaca Buuxa *',
+          labelPhone: 'Telefoon / WhatsApp *',
+          labelLivestock: 'Nooca Xoolaha *',
+          labelService: 'Adeegga Loo Baahan Yahay *',
+          labelMessage: 'Calaamadaha / Farriinta La-Tashiga *',
+          optCamels: 'Geela',
+          optCattle: "Lo'da Caanaha",
+          optShoats: 'Riyaha & Idaha',
+          optPoultry: 'Digaagga',
+          optMixed: 'Xoolo Isku Dhafan / Beer',
+          srvOpt1: 'Talooyinka Dawooyinka & Farmashiyaha',
+          srvOpt2: 'Baaritaanka Shaybaarka (Lab)',
+          srvOpt3: 'Qalliin & Daryeel Caafimaad',
+          srvOpt4: 'Taageerada Caanaha & Wax-soosaarka',
+          srvOpt5: 'Booqasho Xero / Tallaal',
+          submitBtn: 'Diyaari Codsiga La-Tashiga',
+          confirmHeading: 'Qoraalka La-Tashigu Waa Diyaar',
+          confirmReadyTag: 'Diyaar u ah WhatsApp',
+          openWhatsappBtn: 'Ku Dir WhatsApp',
+          copySummaryBtn: 'Koobiyee Qoraalka',
+          formErrRequired: 'Fadlan buuxi magacaaga, lambarka telefoonka, iyo farriinta la-tashiga.',
+
+          footerSummary: 'Xarunta gaarka ah ee farmashiyaha xoolaha Berbera oo bixisa dawooyin tayo leh, shaybaar, qalliin, iyo talooyinka caanaha iyo xoolaha.',
+          footerLinksTitle: 'Xiriirro Degdeg ah',
+          footerHoursTitle: 'Saacadaha & Goobta',
+          footerHoursLine1: 'Sabti – Khamiis: 7:00 AM – 10:00 PM (EAT)',
+          footerHoursLine2: 'Jimce: Waa Xiran Yahay',
+          footerRights: 'Xuquuqda oo dhan way xafidan tahay.',
+          footerNotice: 'Heer Caafimaad oo Sare · Barwaaqo, Berbera',
+
+          toastAddressCopied: 'Cinwaanka farmashiyaha waa la koobiyeeyay!',
+          toastSummaryCopied: 'Qoraalka la-tashiga waa la koobiyeeyay!',
+          toastCopyFail: 'Si toos ah looma koobiyayn karin. Fadlan gacanta ku koobiyee.',
+          toastFormReady: 'Qoraalka la-tashiga hoos ayaa lagu diyaariyay!',
+
+          days: ['Axad', 'Isniin', 'Talaado', 'Arbaco', 'Khamiis', 'Jimce', 'Sabti']
+        }
+      };
+
+      /* -----------------------------------------------------------------------
+         2. SPECIES ADVISORY DATA (DAIRY & LIVESTOCK SUPPORT TABS)
+      ----------------------------------------------------------------------- */
+      const SPECIES_DATA = {
+        camels: {
+          img: 'https://commons.wikimedia.org/wiki/Special:FilePath/The_Camel_Market_(29536613421).jpg?width=1000',
+          alt: { en: 'Somali dromedary camel herd in Somaliland — Geel', so: 'Geel Soomaaliyeed oo ku sugan Somaliland' },
+          fallbackSymbol: '#svg-livestock-camel',
+          badge: { en: 'Camel Health & Dairy Program', so: 'Barnaamijka Caafimaadka & Caanaha Geela' },
+          title: { en: 'Camels (Geela) — Endurance & Milk Productivity', so: 'Geela — Adkaysiga & Wax-soosaarka Caanaha' },
+          summary: {
+            en: 'Tailored clinical protocols for lactating she-camels and pastoral herds exposed to coastal heat, trypanosomiasis, and tick-borne stress.',
+            so: 'Habab caafimaad oo u gaar ah geela irmaan iyo xoolaha miyiga ee wajahaya kulaylka xeebta, dhukaanka, iyo shilinta.'
+          },
+          points: {
+            en: [
+              'Trypanosomiasis (Surra) screening & targeted preventive therapy',
+              'Mange mite, tick, and internal parasite control schedules',
+              'Camel mastitis screening and hygienic milking advisory',
+              'Mineral, salt, and AD3E vitamin support during dry seasons'
+            ],
+            so: [
+              'Baaritaanka iyo ka-hortagga cudurka dhukaanka (Trypanosomiasis)',
+              'Jadwalka ka-hortagga cadhada, shilinta, iyo gooryaanka caloosha',
+              'Baaritaanka caabuqa candhada (mastitis) iyo nadaafadda lisidda',
+              'Kabista macdanta, cusbada, iyo fiitamiin AD3E xilliyada jiilaalka'
+            ]
+          },
+          schedule: { en: 'Recommended Review: Every 3 Months & Pre-Rainy Season', so: 'Kormeerka La Taliyay: 3-dii Biloodba Mar & Ka Hor Xilli-Roobaadka' }
+        },
+        cattle: {
+          img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Somali_cattle.JPG?width=1000',
+          alt: { en: 'Somali East African zebu cattle herd — Lo\'da', so: 'Lo\' Soomaaliyeed oo daaqaysa' },
+          fallbackSymbol: '#svg-livestock-cattle',
+          badge: { en: 'Dairy Cattle Productivity', so: 'Wax-soosaarka Lo\'da Caanaha' },
+          title: { en: 'Dairy Cattle — Mastitis Prevention & Yield Support', so: 'Lo\'da Caanaha — Ka-hortagga Mastitis & Kordhinta Caanaha' },
+          summary: {
+            en: 'Structured farm advisory helping Berbera dairy operations protect udder health, prevent milk fever, and sustain high daily milk output.',
+            so: 'Talooyin beeraha caanaha ee Berbera ka caawinaya ilaalinta naasaha, ka-hortagga qandhada caanaha, iyo joogtaynta caanaha.'
+          },
+          points: {
+            en: [
+              'California Mastitis Test (CMT) & rapid milk quality screening',
+              'Post-calving calcium, magnesium, and energy supplementation',
+              'Tick-borne disease prevention (ECF, Anaplasmosis, Babesiosis)',
+              'Fertility, heat synchronization, and calf-rearing health plans'
+            ],
+            so: [
+              'Baaritaanka degdegga ah ee tayada caanaha iyo mastitis-ka (CMT)',
+              'Kabista kalsiyamka iyo tamarta dhalmada kadib (milk fever)',
+              'Ka-hortagga cudurrada shilintu keento',
+              'Qorshaha taranka, dhalmada, iyo korinta weylaha caafimaadka qaba'
+            ]
+          },
+          schedule: { en: 'Recommended Review: Monthly Dairy Check & Dry-Off Care', so: 'Kormeerka La Taliyay: Hubin Bille ah & Daryeelka Ka Hor Dhalmada' }
+        },
+        shoats: {
+          img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Moutons_de_Somalie.jpg?width=1000',
+          alt: { en: 'Somali blackhead sheep and pastoral flock — Adhi', so: 'Idaha madaxa madow ee Soomaaliyeed — Adhiga' },
+          fallbackSymbol: '#svg-livestock-shoat',
+          badge: { en: 'Small Ruminants & Export Readiness', so: 'Adhiga & Diyaarinta Dhoofinta' },
+          title: { en: 'Goats & Sheep (Adhiga) — Vaccination & Flock Care', so: 'Riyaha & Idaha — Tallaalka & Daryeelka Xoolaha' },
+          summary: {
+            en: 'Comprehensive flock protection against respiratory outbreaks and seasonal parasites, supporting both pastoral families and Berbera export herds.',
+            so: 'Ilaalin dhammaystiran oo adhiga ka difaacda cudurrada neef-mareenka iyo dulinka, iyadoo taageerta qoysaska iyo xoolaha dhoofka Berbera.'
+          },
+          points: {
+            en: [
+              'Cold-chain vaccination for PPR, Sheep/Goat Pox, and CCPP',
+              'Strategic oral deworming before and after seasonal rains',
+              'Foot rot, wound care, and external parasite dip/pour-on plans',
+              'Pre-export health conditioning and vitamin boosters'
+            ],
+            so: [
+              'Tallaalka qaboojiyaha ee PPR, furuqa adhiga, iyo sambabka (CCPP)',
+              'Siinta dawooyinka gooryaanka ka hor iyo kadib xilliyada roobka',
+              'Daweynta nabarrada ciddiyaha iyo ka-hortagga shilinta',
+              'Xoojinta caafimaadka iyo fiitamiinnada ka hor dhoofinta'
+            ]
+          },
+          schedule: { en: 'Recommended Review: Seasonal Herd Vaccination & Deworming', so: 'Kormeerka La Taliyay: Tallaal & Gooryaan-saarid Xilliyeed' }
+        }
+      };
+
+      /* -----------------------------------------------------------------------
+         3. FACILITY & FIELD GALLERY ITEMS (AUTHENTIC SOMALI LIVESTOCK)
+      ----------------------------------------------------------------------- */
+      const GALLERY_CATEGORIES = [
+        { key: 'All', i18nKey: 'galCatAll' },
+        { key: 'Camels', i18nKey: 'galCatCamels' },
+        { key: 'Cattle', i18nKey: 'galCatCattle' },
+        { key: 'Goats & Sheep', i18nKey: 'galCatShoats' },
+        { key: 'Pharmacy & Clinic', i18nKey: 'galCatClinic' }
+      ];
+
+      const GALLERY_ITEMS = [
+        {
+          id: 'gal-1',
+          category: 'Camels',
+          fallbackSymbol: '#svg-livestock-camel',
+          img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Somali_camel.jpg?width=1000',
+          title: { en: 'Somali Dromedary Camels (Geel)', so: 'Geela Soomaaliyeed' },
+          desc: { en: 'Preventive trypanosomiasis, tick control, and camel milk health support across pastoral herds.', so: 'Ka-hortagga dhukaanka, shilinta, iyo daryeelka caafimaadka geela irmaan ee miyiga.' }
+        },
+        {
+          id: 'gal-2',
+          category: 'Camels',
+          fallbackSymbol: '#svg-livestock-camel',
+          img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Somali_veterinary_technician_carrying_a_camel_calf_in_the_rural_of_Xudun_district,_Sool,_Somalia.jpg?width=1000',
+          title: { en: 'Rural Camel Calf Veterinary Care', so: 'Daryeelka Nirgaha Geela ee Miyiga' },
+          desc: { en: 'Hands-on veterinary field outreach supporting young camel calves and pastoral families.', so: 'Adeeg caafimaad oo xeryaha loogu tago si loo daryeelo nirgaha iyo xoolo-dhaqatada.' }
+        },
+        {
+          id: 'gal-3',
+          category: 'Cattle',
+          fallbackSymbol: '#svg-livestock-cattle',
+          img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Somali_cattle.JPG?width=1000',
+          title: { en: 'Somali Pastoral Zebu Cattle (Lo\')', so: 'Lo\'da Soomaaliyeed ee Daaqsinka' },
+          desc: { en: 'East African zebu herds supported with tick-borne disease protection and mineral supplements.', so: 'Lo\'da Soomaaliyeed oo lagu taageero ka-hortagga cudurrada shilinta iyo macdanta.' }
+        },
+        {
+          id: 'gal-4',
+          category: 'Cattle',
+          fallbackSymbol: '#svg-livestock-cattle',
+          img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Iziya_Farm_Mbala_Northern_Province_(since_1983)_-_Zambia.JPG?width=1000',
+          title: { en: 'East African Boran & Dairy Cattle', so: 'Lo\'da Caanaha & Barwaaqaynta Beeraha' },
+          desc: { en: 'On-farm dairy nutrition, mastitis screening, and fertility advisory for productive cattle.', so: 'Talooyinka quudinta caanaha, baaritaanka mastitis, iyo taranka lo\'da.' }
+        },
+        {
+          id: 'gal-5',
+          category: 'Goats & Sheep',
+          fallbackSymbol: '#svg-livestock-shoat',
+          img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Goats_in_Somaliland.jpg?width=1000',
+          title: { en: 'Somali Goats in Somaliland (Riyo)', so: 'Riyaha Soomaaliyeed ee Somaliland' },
+          desc: { en: 'Seasonal PPR & CCPP vaccination and deworming programs for resilient goat herds.', so: 'Barnaamijyada tallaalka PPR & CCPP iyo gooryaan-saaridda riyaha.' }
+        },
+        {
+          id: 'gal-6',
+          category: 'Goats & Sheep',
+          fallbackSymbol: '#svg-livestock-shoat',
+          img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Moutons_de_Somalie.jpg?width=1000',
+          title: { en: 'Somali Blackhead Sheep (Ido)', so: 'Idaha Madaxa Madow ee Soomaaliyeed' },
+          desc: { en: 'Flock health conditioning and pre-export veterinary care for Berbera livestock trade.', so: 'Xoojinta caafimaadka adhiga iyo diyaarinta xoolaha dhoofka ee Berbera.' }
+        },
+        {
+          id: 'gal-7',
+          category: 'Pharmacy & Clinic',
+          fallbackSymbol: '#svg-livestock-clinic',
+          img: 'https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&w=900&q=80',
+          title: { en: 'Kaafiye Veterinary Dispensary', so: 'Khaanadaha Dawooyinka ee Kaafiye' },
+          desc: { en: 'Cold-chain vaccines, genuine veterinary antibiotics, and clear dosage counseling in Barwaaqo.', so: 'Tallaallo qaboojiye leh, antibiyootik tayo leh, iyo hagitaan qiyaas sax ah.' }
+        },
+        {
+          id: 'gal-8',
+          category: 'Pharmacy & Clinic',
+          fallbackSymbol: '#svg-livestock-clinic',
+          img: 'https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=900&q=80',
+          title: { en: 'Laboratory Diagnostics Bench', so: 'Baaritaanka Shaybaarka Xoolaha' },
+          desc: { en: 'Microscopic blood smear, fecal parasitology, and rapid milk mastitis testing.', so: 'Baaritaanka dhiigga, dulinka caloosha, iyo caabuqa candhada ee caanaha.' }
+        }
+      ];
+
+      /* -----------------------------------------------------------------------
+         4. STATE & STORAGE
+      ----------------------------------------------------------------------- */
+      const STORAGE_LANG_KEY = 'kaafiye_corp_lang_v1';
+
+      let state = {
+        lang: 'en',
+        activeSpecies: 'camels',
+        activeGalleryCat: 'All',
+        lightboxList: [],
+        lightboxIndex: 0,
+        lastConsultText: ''
+      };
+
+      function loadLanguage() {
+        try {
+          const saved = localStorage.getItem(STORAGE_LANG_KEY);
+          if (saved === 'en' || saved === 'so') {
+            state.lang = saved;
+          }
+        } catch (err) {
+          console.warn('Could not read language preference:', err);
+        }
+      }
+
+      function saveLanguage() {
+        try {
+          localStorage.setItem(STORAGE_LANG_KEY, state.lang);
+        } catch (err) {
+          console.warn('Could not save language preference:', err);
+        }
+      }
+
+      function t(key) {
+        return (I18N[state.lang] && I18N[state.lang][key]) || I18N.en[key] || key;
+      }
+
+      /* -----------------------------------------------------------------------
+         5. LIVE EAT (UTC+3) STORE HOURS LOGIC
+      ----------------------------------------------------------------------- */
+      function getEatInfo() {
+        const now = new Date();
+        const eatDate = new Date(now.getTime() + 3 * 60 * 60 * 1000);
+        return {
+          day: eatDate.getUTCDay(), // 0=Sun ... 5=Fri, 6=Sat
+          hours: eatDate.getUTCHours(),
+          minutes: eatDate.getUTCMinutes()
+        };
+      }
+
+      function formatClock(hours, minutes) {
+        const period = hours >= 12 ? 'PM' : 'AM';
+        const h12 = hours % 12 || 12;
+        return `${h12}:${String(minutes).padStart(2, '0')} ${period}`;
+      }
+
+      function updateStoreStatus() {
+        const { day, hours, minutes } = getEatInfo();
+        const isFriday = day === 5;
+        const isOpen = !isFriday && hours >= 7 && hours < 22;
+
+        const statusDot = document.getElementById('statusDot');
+        const statusLabel = document.getElementById('statusLabel');
+        const eatClock = document.getElementById('eatClock');
+        const hoursBadge = document.getElementById('hoursSectionBadge');
+
+        if (eatClock) {
+          eatClock.textContent = `Berbera ${formatClock(hours, minutes)} (EAT)`;
+        }
+
+        if (isOpen) {
+          if (statusDot) statusDot.className = 'w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse shrink-0';
+          if (statusLabel) statusLabel.textContent = t('statusOpen');
+          if (hoursBadge) {
+            hoursBadge.textContent = t('badgeOpenShort');
+            hoursBadge.className = 'text-xs font-extrabold px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200';
+          }
+        } else {
+          if (statusDot) statusDot.className = 'w-2.5 h-2.5 rounded-full bg-[#DC2626] shrink-0';
+          if (statusLabel) {
+            if (isFriday) statusLabel.textContent = t('statusClosedFri');
+            else if (hours < 7) statusLabel.textContent = t('statusClosedBefore');
+            else if (day === 4 && hours >= 22) statusLabel.textContent = t('statusClosedThuNight');
+            else statusLabel.textContent = t('statusClosedAfter');
+          }
+          if (hoursBadge) {
+            hoursBadge.textContent = t('badgeClosedShort');
+            hoursBadge.className = 'text-xs font-extrabold px-3 py-1 rounded-full bg-[#FEF2F2] text-[#DC2626] border border-[#F3D5D5]';
+          }
+        }
+
+        renderWeeklyHours(day);
+      }
+
+      function renderWeeklyHours(todayIdx) {
+        const container = document.getElementById('hoursTable');
+        if (!container) return;
+
+        const order = [1, 2, 3, 4, 5, 6, 0];
+        const names = I18N[state.lang].days;
+
+        container.innerHTML = order.map(d => {
+          const isToday = d === todayIdx;
+          const isFri = d === 5;
+          const rowClass = isToday
+            ? 'flex items-center justify-between py-2.5 px-3 -mx-3 rounded-xl bg-[#FEF2F2] border border-[#F3D5D5] font-extrabold text-[#991B1B]'
+            : 'flex items-center justify-between py-2.5 text-[#374151]';
+
+          const hoursHtml = isFri
+            ? `<span class="font-extrabold text-[#DC2626]">${t('dayClosed')}</span>`
+            : `<span class="${isToday ? 'text-[#991B1B]' : 'text-[#111827] font-semibold'}">7:00 AM – 10:00 PM</span>`;
+
+          const todayPill = isToday
+            ? `<span class="ml-2 px-2 py-0.5 rounded-full text-[10px] font-extrabold uppercase bg-[#DC2626] text-white">${t('todayTag')}</span>`
+            : '';
+
+          return `
+            <div class="${rowClass}">
+              <span class="flex items-center">${names[d]}${todayPill}</span>
+              ${hoursHtml}
+            </div>
+          `;
+        }).join('');
+      }
+
+      /* -----------------------------------------------------------------------
+         6. RENDERING: LANGUAGE, SPECIES TABS & GALLERY
+      ----------------------------------------------------------------------- */
+      function applyTranslations() {
+        document.querySelectorAll('[data-i18n]').forEach(el => {
+          const key = el.getAttribute('data-i18n');
+          if (key) el.textContent = t(key);
+        });
+
+        // Update EN/SO toggle styling
+        const btnEn = document.getElementById('langBtnEn');
+        const btnSo = document.getElementById('langBtnSo');
+        if (state.lang === 'en') {
+          btnEn.className = 'px-2.5 py-1.5 rounded-lg text-xs font-extrabold bg-[#DC2626] text-white shadow-xs transition-all';
+          btnSo.className = 'px-2.5 py-1.5 rounded-lg text-xs font-extrabold text-[#991B1B] hover:bg-white transition-all';
+        } else {
+          btnSo.className = 'px-2.5 py-1.5 rounded-lg text-xs font-extrabold bg-[#DC2626] text-white shadow-xs transition-all';
+          btnEn.className = 'px-2.5 py-1.5 rounded-lg text-xs font-extrabold text-[#991B1B] hover:bg-white transition-all';
+        }
+
+        document.documentElement.lang = state.lang;
+
+        updateStoreStatus();
+        renderSpeciesPanel();
+        renderGalleryFilters();
+        renderGalleryGrid();
+      }
+
+      function renderSpeciesPanel() {
+        const data = SPECIES_DATA[state.activeSpecies] || SPECIES_DATA.camels;
+        const panel = document.getElementById('speciesPanel');
+
+        // Highlight active tab button
+        ['camels', 'cattle', 'shoats'].forEach(key => {
+          const btn = document.getElementById(`tab-${key}`);
+          if (!btn) return;
+          if (key === state.activeSpecies) {
+            btn.className = 'species-tab text-left px-4 py-3.5 rounded-xl font-extrabold text-sm flex items-center justify-between bg-white text-[#991B1B] shadow-md transition-all';
+          } else {
+            btn.className = 'species-tab text-left px-4 py-3.5 rounded-xl font-bold text-sm flex items-center justify-between bg-white/10 hover:bg-white/20 text-white border border-white/20 transition-all';
+          }
+        });
+
+        if (!panel) return;
+        const pointsHtml = data.points[state.lang].map(pt => `
+          <li class="flex items-start gap-2.5 text-sm text-[#374151]">
+            <span class="w-5 h-5 rounded-full bg-[#FEF2F2] text-[#DC2626] flex items-center justify-center shrink-0 mt-0.5">
+              <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+              </svg>
+            </span>
+            <span>${pt}</span>
+          </li>
+        `).join('');
+
+        panel.innerHTML = `
+          <div class="relative aspect-[16/9] w-full rounded-xl overflow-hidden bg-[#FEF2F2] border border-[#F3D5D5]">
+            <img
+              src="${data.img}"
+              alt="${data.alt[state.lang]}"
+              class="w-full h-full object-cover object-center"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+            />
+            <div class="hidden w-full h-full items-center justify-center bg-[#FEF2F2]">
+              <svg class="w-full h-full" viewBox="0 0 320 200" aria-hidden="true">
+                <use href="${data.fallbackSymbol}"></use>
+              </svg>
+            </div>
+            <span class="absolute top-3 left-3 text-[11px] font-extrabold uppercase tracking-wider text-white bg-[#DC2626]/95 px-3 py-1 rounded-full shadow-sm">${data.badge[state.lang]}</span>
+          </div>
+          <div>
+            <h3 class="text-xl sm:text-2xl font-black text-[#111827]">${data.title[state.lang]}</h3>
+            <p class="text-sm text-[#374151] mt-2 leading-relaxed">${data.summary[state.lang]}</p>
+          </div>
+          <ul class="space-y-2.5 pt-1">${pointsHtml}</ul>
+          <div class="pt-4 border-t border-[#F3D5D5] flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+            <span class="text-xs font-extrabold text-[#991B1B]">${data.schedule[state.lang]}</span>
+            <a href="#contact" class="inline-flex items-center justify-center gap-1.5 px-4 py-2 rounded-xl bg-[#DC2626] hover:bg-[#B91C1C] text-white text-xs font-bold transition-colors shrink-0">
+              <span>${t('navCta')}</span>
+              <span>&rarr;</span>
+            </a>
+          </div>
+        `;
+      }
+
+      function renderGalleryFilters() {
+        const container = document.getElementById('galleryFilters');
+        if (!container) return;
+
+        container.innerHTML = GALLERY_CATEGORIES.map(cat => {
+          const isActive = state.activeGalleryCat === cat.key;
+          const cls = isActive
+            ? 'shrink-0 px-4 py-2 rounded-xl text-xs sm:text-sm font-extrabold bg-[#DC2626] text-white shadow-sm transition-all'
+            : 'shrink-0 px-4 py-2 rounded-xl text-xs sm:text-sm font-bold bg-white text-[#374151] border border-[#F3D5D5] hover:border-[#DC2626] hover:text-[#DC2626] transition-all';
+          return `<button type="button" onclick="selectGalleryCategory('${cat.key}')" class="${cls}">${t(cat.i18nKey)}</button>`;
+        }).join('');
+      }
+
+      function getFilteredGallery() {
+        if (state.activeGalleryCat === 'All') return GALLERY_ITEMS;
+        return GALLERY_ITEMS.filter(item => item.category === state.activeGalleryCat);
+      }
+
+      function renderGalleryGrid() {
+        const grid = document.getElementById('galleryGrid');
+        const countEl = document.getElementById('galleryCount');
+        if (!grid) return;
+
+        const items = getFilteredGallery();
+        state.lightboxList = items;
+        if (countEl) countEl.textContent = String(items.length);
+
+        grid.innerHTML = items.map((item, idx) => {
+          const catObj = GALLERY_CATEGORIES.find(c => c.key === item.category);
+          const catLabel = catObj ? t(catObj.i18nKey) : item.category;
+
+          return `
+            <button type="button" onclick="openLightbox(${idx})" class="group text-left rounded-2xl bg-white border border-[#F3D5D5] overflow-hidden shadow-xs hover:shadow-xl hover:border-[#DC2626] transition-all focus:outline-none focus:ring-2 focus:ring-[#DC2626]">
+              <div class="relative aspect-[4/3] w-full bg-[#FEF2F2] overflow-hidden">
+                <img
+                  src="${item.img}"
+                  alt="${item.title[state.lang]}"
+                  loading="lazy"
+                  class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-300"
+                  onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                />
+                <div class="hidden w-full h-full items-center justify-center bg-[#FEF2F2]">
+                  <svg class="w-full h-full" viewBox="0 0 320 200" aria-hidden="true">
+                    <use href="${item.fallbackSymbol || '#svg-livestock-clinic'}"></use>
+                  </svg>
+                </div>
+                <span class="absolute top-3 left-3 px-2.5 py-1 rounded-full bg-white/95 text-[#DC2626] text-[10px] font-extrabold uppercase tracking-wider shadow-xs">${catLabel}</span>
+              </div>
+              <div class="p-4">
+                <h3 class="text-sm font-extrabold text-[#111827] group-hover:text-[#DC2626] transition-colors">${item.title[state.lang]}</h3>
+                <p class="text-xs text-[#374151] mt-1 line-clamp-2">${item.desc[state.lang]}</p>
+              </div>
+            </button>
+          `;
+        }).join('');
+      }
+
+      /* -----------------------------------------------------------------------
+         7. LIGHTBOX MODAL LOGIC
+      ----------------------------------------------------------------------- */
+      function renderLightboxSlide() {
+        const list = state.lightboxList;
+        if (!list.length) return;
+        const item = list[state.lightboxIndex];
+        const catObj = GALLERY_CATEGORIES.find(c => c.key === item.category);
+        const catLabel = catObj ? t(catObj.i18nKey) : item.category;
+
+        const imgEl = document.getElementById('lightboxImg');
+        const fallbackEl = document.getElementById('lightboxFallback');
+        const fallbackUse = document.getElementById('lightboxFallbackUse');
+
+        imgEl.style.display = 'block';
+        fallbackEl.classList.add('hidden');
+        fallbackEl.classList.remove('flex');
+        if (fallbackUse) {
+          fallbackUse.setAttribute('href', item.fallbackSymbol || '#svg-livestock-clinic');
+        }
+
+        imgEl.onerror = function () {
+          imgEl.style.display = 'none';
+          fallbackEl.classList.remove('hidden');
+          fallbackEl.classList.add('flex');
+        };
+        imgEl.src = item.img;
+        imgEl.alt = item.title[state.lang];
+
+        document.getElementById('lightboxCategory').textContent = catLabel;
+        document.getElementById('lightboxTitle').textContent = item.title[state.lang];
+        document.getElementById('lightboxDesc').textContent = item.desc[state.lang];
+        document.getElementById('lightboxCounter').textContent = `${state.lightboxIndex + 1} / ${list.length}`;
+      }
+
+      /* -----------------------------------------------------------------------
+         8. GLOBAL INTERACTIVE HANDLERS
+      ----------------------------------------------------------------------- */
+      window.setLanguage = function (lang) {
+        if (lang !== 'en' && lang !== 'so') return;
+        state.lang = lang;
+        saveLanguage();
+        applyTranslations();
+      };
+
+      window.selectSpeciesTab = function (key) {
+        if (!SPECIES_DATA[key]) return;
+        state.activeSpecies = key;
+        renderSpeciesPanel();
+      };
+
+      window.selectGalleryCategory = function (catKey) {
+        state.activeGalleryCat = catKey;
+        renderGalleryFilters();
+        renderGalleryGrid();
+      };
+
+      window.openLightbox = function (index) {
+        if (!state.lightboxList.length) return;
+        state.lightboxIndex = index;
+        renderLightboxSlide();
+        const modal = document.getElementById('lightboxModal');
+        modal.classList.remove('hidden');
+        document.body.style.overflow = 'hidden';
+      };
+
+      window.closeLightbox = function () {
+        const modal = document.getElementById('lightboxModal');
+        modal.classList.add('hidden');
+        document.body.style.overflow = '';
+      };
+
+      window.navigateLightbox = function (delta) {
+        const len = state.lightboxList.length;
+        if (!len) return;
+        state.lightboxIndex = (state.lightboxIndex + delta + len) % len;
+        renderLightboxSlide();
+      };
+
+      window.toggleMobileMenu = function () {
+        const menu = document.getElementById('mobileMenu');
+        const openIcon = document.getElementById('menuIconOpen');
+        const closeIcon = document.getElementById('menuIconClose');
+        const btn = document.getElementById('mobileMenuBtn');
+        const isHidden = menu.classList.contains('hidden');
+        menu.classList.toggle('hidden', !isHidden);
+        openIcon.classList.toggle('hidden', isHidden);
+        closeIcon.classList.toggle('hidden', !isHidden);
+        btn.setAttribute('aria-expanded', String(isHidden));
+      };
+
+      window.closeMobileMenu = function () {
+        const menu = document.getElementById('mobileMenu');
+        const openIcon = document.getElementById('menuIconOpen');
+        const closeIcon = document.getElementById('menuIconClose');
+        const btn = document.getElementById('mobileMenuBtn');
+        menu.classList.add('hidden');
+        openIcon.classList.remove('hidden');
+        closeIcon.classList.add('hidden');
+        btn.setAttribute('aria-expanded', 'false');
+      };
+
+      /* -----------------------------------------------------------------------
+         9. CONSULTATION FORM VALIDATION & WHATSAPP SUMMARY
+      ----------------------------------------------------------------------- */
+      window.handleConsultationSubmit = function (event) {
+        event.preventDefault();
+        const errBox = document.getElementById('formErrorBox');
+        errBox.classList.add('hidden');
+
+        const name = (document.getElementById('consultName').value || '').trim();
+        const phone = (document.getElementById('consultPhone').value || '').trim();
+        const livestock = document.getElementById('consultLivestock').value;
+        const service = document.getElementById('consultService').value;
+        const message = (document.getElementById('consultMessage').value || '').trim();
+
+        if (!name || !phone || !message) {
+          errBox.textContent = t('formErrRequired');
+          errBox.classList.remove('hidden');
+          return;
+        }
+
+        const lines = [
+          'Kaafiye Veterinary Pharmacy (Berbera)',
+          state.lang === 'so' ? '--- Codsi La-Tashi Caafimaadka Xoolaha ---' : '--- Veterinary Consultation Request ---',
+          '',
+          `${state.lang === 'so' ? 'Magaca' : 'Name'}: ${name}`,
+          `${state.lang === 'so' ? 'Telefoon / WhatsApp' : 'Phone / WhatsApp'}: ${phone}`,
+          `${state.lang === 'so' ? 'Nooca Xoolaha' : 'Livestock'}: ${livestock}`,
+          `${state.lang === 'so' ? 'Adeegga' : 'Service'}: ${service}`,
+          `${state.lang === 'so' ? 'Faahfaahin' : 'Message'}: ${message}`
+        ];
+
+        const summary = lines.join('\n');
+        state.lastConsultText = summary;
+
+        document.getElementById('consultSummaryText').textContent = summary;
+        document.getElementById('consultWhatsappLink').href = `https://wa.me/?text=${encodeURIComponent(summary)}`;
+        const confirmBox = document.getElementById('consultConfirmation');
+        confirmBox.classList.remove('hidden');
+        confirmBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+
+        showToast(t('toastFormReady'));
+      };
+
+      window.copyText = function (text, toastType) {
+        try {
+          const ta = document.createElement('textarea');
+          ta.value = text;
+          ta.setAttribute('readonly', '');
+          ta.style.position = 'fixed';
+          ta.style.top = '-9999px';
+          document.body.appendChild(ta);
+          ta.select();
+          ta.setSelectionRange(0, ta.value.length);
+          const ok = document.execCommand('copy');
+          document.body.removeChild(ta);
+
+          if (ok) {
+            showToast(toastType === 'addressCopied' ? t('toastAddressCopied') : t('toastSummaryCopied'));
+          } else {
+            showToast(t('toastCopyFail'), true);
+          }
+        } catch (err) {
+          console.error('Clipboard error:', err);
+          showToast(t('toastCopyFail'), true);
+        }
+      };
+
+      window.copyConsultationSummary = function () {
+        if (!state.lastConsultText) return;
+        window.copyText(state.lastConsultText, 'summaryCopied');
+      };
+
+      /* -----------------------------------------------------------------------
+         10. TOAST NOTIFICATIONS
+      ----------------------------------------------------------------------- */
+      function showToast(msg, isWarning) {
+        const container = document.getElementById('toastContainer');
+        if (!container) return;
+
+        const el = document.createElement('div');
+        el.className = `pointer-events-auto px-4 py-3 rounded-xl shadow-xl text-xs sm:text-sm font-bold transition-all duration-300 ${
+          isWarning
+            ? 'bg-[#111827] text-red-200 border border-[#DC2626]'
+            : 'bg-[#991B1B] text-white border border-white/20'
+        }`;
+        el.textContent = msg;
+        container.appendChild(el);
+
+        setTimeout(() => {
+          el.style.opacity = '0';
+          el.style.transform = 'translateY(8px)';
+          setTimeout(() => el.remove(), 300);
+        }, 2800);
+      }
+
+      /* -----------------------------------------------------------------------
+         11. INITIALIZATION & KEYBOARD LISTENERS
+      ----------------------------------------------------------------------- */
+      function init() {
+        try {
+          const yearEl = document.getElementById('currentYear');
+          if (yearEl) yearEl.textContent = String(new Date().getFullYear());
+
+          loadLanguage();
+          applyTranslations();
+
+          // Refresh EAT open/closed status every 60s
+          setInterval(updateStoreStatus, 60000);
+
+          // Lightbox keyboard support + backdrop click to close
+          const modal = document.getElementById('lightboxModal');
+          if (modal) {
+            modal.addEventListener('click', function (e) {
+              if (e.target === modal) window.closeLightbox();
+            });
+          }
+
+          document.addEventListener('keydown', function (e) {
+            const isLightboxOpen = modal && !modal.classList.contains('hidden');
+            if (!isLightboxOpen) return;
+            if (e.key === 'Escape') window.closeLightbox();
+            if (e.key === 'ArrowRight') window.navigateLightbox(1);
+            if (e.key === 'ArrowLeft') window.navigateLightbox(-1);
+          });
+        } catch (err) {
+          console.error('Initialization error:', err);
+        }
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+      } else {
+        init();
+      }
+    })();
+  </script>
+</body>
+</html>
